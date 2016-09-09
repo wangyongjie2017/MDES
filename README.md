@@ -665,6 +665,7 @@ XamarinStudio 从 6.1 开始开源了 Xamrin.forms 的源代码，可以说是�
 
 2. PhotoShop
 3. Adobe DX
+4. [Logoist](http://www.syniumsoftware.com/logoist) - 傻瓜式 `Logo` 设计工具
 
 ## SQL
 
