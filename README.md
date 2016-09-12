@@ -7,7 +7,7 @@ MDES 就是为了解决上述问题而诞生，下面记录了 mac 上常用的�
 ## Table of Contents
 
 - [Lantern](#lantern)
-- [GreenVPN](#greenVPN)
+- [GreenVPN](#greenvpn)
 - [Xcode](#xcode)
   + [Xcode Plugin Manager](#xcode-plugin-manager)
 - [Terminal](#terminal)
@@ -15,6 +15,7 @@ MDES 就是为了解决上述问题而诞生，下面记录了 mac 上常用的�
   + [AutoJump](#autojump)
   + [tree](#tree)
 - [Pyenv](#pyenv)
+  + [Scrapy](#scrapy)
 - [Shadowsocks](#shadowsocks)
   + [GFWList](#gfwlist)
   + [Shadowsocks + Terminal](#shadowsocks--terminal)
@@ -23,7 +24,7 @@ MDES 就是为了解决上述问题而诞生，下面记录了 mac 上常用的�
 - [Consolas Font](#consolas-font)
 - [Node](#node)
 - [Atom](#atom)
-  + [plugin](#plugin)
+  + [plugins](#plugins)
   + [themes](#themes)
 - [Cocoapods](#cocoapods)
   + [如何更好地使用 CocoaPods](如何更好地使用-cocoapods)
@@ -151,6 +152,30 @@ echo 'if which pyenv > /dev/null; then eval "$(pyenv init -)"; fi' >> ~/.zshrc
 ```
 alias brew='"env" PATH=${PATH//$(pyenv root)\/shims:/} brew'
 ```
+
+### Scrapy
+
+[Scrapy](https://scrapy.org) 是采用 `Python` 语言编写的爬虫框架，可扩展性非常好。
+
+```
+sudo pip install Scrapy
+```
+安装完之后，会提示如下错误：
+
+```
+ImportError:cannot import name xmlrpc_client
+```
+
+解决方法如下：
+
+```
+sudo rm -rf /Library/Python/2.7/site-packages/six*
+sudo rm -rf /System/Library/Frameworks/Python.framework/Versions/2.7/Extras/lib/python/six*
+sudo pip install six
+```
+
+最后运行 `scrapy version`，如果能正常打印出版本信息就说明没有问题了。
+
 
 ## Shadowsocks
 
