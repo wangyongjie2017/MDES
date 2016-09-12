@@ -308,7 +308,7 @@ registry = https://registry.npm.taobao.org
 
 这里列出一些我比较喜欢的插件和主题：
 
-**plugin**
+### plugins
 
 - file-icons
 - git-time-machine
@@ -354,7 +354,7 @@ registry = https://registry.npm.taobao.org
 - atom-beautify - 一键美化代码
 - sync-settings - atom 配置备份
 
-**themes**
+### themes
 
 - Nucleus Dark UI
 - Seti-ui
