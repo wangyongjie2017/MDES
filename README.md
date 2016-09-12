@@ -347,6 +347,13 @@ registry = https://registry.npm.taobao.org
 
   + 项目创建完成后，随便打开一个 .cs 文件后就会连接 `Omnisharp` 的服务器，进行语法校验和智能提示等一系列操作，这个过程我这里尝试的结果是开始会报各种语法错误，过一会校验完成后就没有了，感觉体验不是特别好
 
+- emmet - HTML 快速编写神器
+- autocomplete-modules - JS 模块导入神器
+- atom-ternjs - javascript 智能提示
+- atom-css-comb - sort css properties
+- atom-beautify - 一键美化代码
+- sync-settings - atom 配置备份
+
 **themes**
 
 - Nucleus Dark UI
