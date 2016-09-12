@@ -23,6 +23,9 @@ MDES 就是为了解决上述问题而诞生，下面记录了 mac 上常用的�
 - [youtube-dl](#youtube-dl)
 - [Consolas Font](#consolas-font)
 - [Node](#node)
+  + [Gulp](#gulp)
+  + [Express](#express)
+  + [Other](#other)
 - [Atom](#atom)
   + [plugins](#plugins)
   + [themes](#themes)
@@ -321,6 +324,40 @@ nvm install your_version
 nvm alias default your_version
 ```
 
+### Express
+
+[Express](https://expressjs.com) 是 Node 阵营里算是最流程的 Web 框架了，它提供了工程生成模板工具。
+
+```
+npm install express-generator -g
+```
+
+### Gulp
+
+[Gulp](http://gulpjs.com) 基于流的前段构建工具。
+
+```
+npm install --global gulp-cli
+```
+
+### Recipes
+
+- [Webpack](http://webpack.github.io)
+- [Gulp](http://gulpjs.com)
+- [Babel](http://babeljs.io)
+- [Browsify](https://github.com/substack/node-browserify)
+- [browsersync](https://www.browsersync.io)
+
+### Other
+有时候需要查看全局和工程中已安装的 `npm` 包，每次都要手写命令比较麻烦，给出一劳永逸的方法：
+
+```
+echo 'alias ng="npm list -g --depth=0 2>/dev/null"' >> ~/.zshrc
+echo 'alias nl="npm list --depth=0 2>/dev/null"' >> ~/.zshrc
+```
+
+添加完之后，重启 `Terminal` 然后运行 `ng` 或者 `nl` 就可以看到相应的 `npm` 包。
+
 ## Atom
 
 [Atom](https://atom.io/) 被称作21世纪的编辑器，这个称号我认为当之无愧，强大到无所不能的插件机制让你每天都想蹂躏她，哈哈。
@@ -374,7 +411,7 @@ registry = https://registry.npm.taobao.org
 
 - emmet - HTML 快速编写神器
 - autocomplete-modules - JS 模块导入神器
-- atom-ternjs - javascript 智能提示
+- atom-ternjs - javascript 智能提示 - 注意：ternjs 插件有时候要重新项目才能生效
 - atom-css-comb - sort css properties
 - atom-beautify - 一键美化代码
 - sync-settings - atom 配置备份
