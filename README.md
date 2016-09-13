@@ -138,6 +138,20 @@ brew update
 brew install tree
 ```
 
+### asciinema
+
+[asciinema](asciinema) 终端录制工具，安装方法如下：
+
+```
+brew update && brew install asciinema
+```
+
+启动：
+
+```
+asciinema rec
+```
+
 ## Pyenv
 
 碰到脚本语言，就势必出现大家在开发的时候选择不同版本进行开发，这个时候就出现了各种 Version Manager，像 Python 这种一直维持两个版本的语言来说，更需要用这种工具来随时切换各种 Python 脚本，所以就需要[pyenv](https://github.com/yyuu/pyenv)来管理.
