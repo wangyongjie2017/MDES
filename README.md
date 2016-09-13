@@ -144,7 +144,7 @@ brew install tree
 
 ### asciinema
 
-[asciinema](asciinema) 终端录制工具，安装方法如下：
+[asciinema](https://asciinema.org) 终端录制工具，安装方法如下：
 
 ```
 brew update && brew install asciinema
