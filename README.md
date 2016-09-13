@@ -303,6 +303,208 @@ open CONSOLA*.TTF
 - Xcode
 - Terminal
 
+## tmux
+tmux 是一个终端多开工具，可以在一个 `Terminal` 窗口内同时运行多个会话，并且可以高度自定义，支持插件，安装方法如下：
+
+```
+brew install tmux
+```
+
+在说怎么牛叉的配置 `tmux` 和 安装 `tmux-plugin` 之前，要先理解 `tmux` 的基本结构：
+
+```
+tmux
+├── 会话a
+│   ├── 窗口a
+│   │   ├── 窗格a
+│   │   └── 窗格b
+│   └── 窗口b
+│       └── 窗格c
+└── 会话b
+    ├── 窗口c
+    │   └── 窗格d
+    └── 窗口d
+        └── 窗格e
+```
+
+### plugin
+
+[tmux-plugins](https://github.com/tmux-plugins) 是一个专门为 `tmux` 编写插件系统的组织，[tmp](https://github.com/tmux-plugins/tpm) 是主要的插件管理工具，安装方法如下：
+
+```
+git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
+```
+
+然后在 `~/.tmux.conf` 进行如下配置：
+
+```
+# List of plugins
+set -g @plugin 'tmux-plugins/tpm'
+set -g @plugin 'tmux-plugins/tmux-sensible'
+
+# Other examples:
+# set -g @plugin 'github_username/plugin_name'
+# set -g @plugin 'git@github.com/user/plugin'
+# set -g @plugin 'git@bitbucket.com/user/plugin'
+
+# Initialize TMUX plugin manager (keep this line at the very bottom of tmux.conf | 最后一行一定不要改变)
+run '~/.tmux/plugins/tpm/tpm'
+```
+
+### config
+
+有了上面的插件之后，你同样可以自定义一些 `tmux` 的样式和操作甚至是快捷键，下面列出我总结的配置，里面包含了一些参考链接。
+
+```
+### INSTALLATION NOTES ###
+# 1. Install by MDES (https://github.com/coderafi/mdes)
+# 2. brew install reattach-to-user-namespace
+#
+# Usage:
+# - Prefix is set to Ctrl-a (make sure you remapped Caps Lock to Ctrl)
+# - All prefixed with Ctrl-a
+#   - Last used window: /
+#   - Last used pane:   ;
+#   - Vertical split:   v
+#   - Horizontal split: s
+#   - Previous window:  [
+#   - Next window:      ]
+#   - Choose session:   Ctrl-s
+#   - Quick window:     Ctrl-q
+# Urls:
+# - https://mba811.gitbooks.io/mac-dev/content/iTerm/tmux.html
+# - https://gist.github.com/v-yarotsky/2157908
+# - http://mingxinglai.com/cn/2012/09/tmux/
+# - http://harttle.com/2015/11/06/tmux-startup.html
+# - http://zanshin.net/2013/09/05/my-tmux-configuration/
+# - http://wing2south.com/post/40670260768/tmux/
+# - https://linuxtoy.org/archives/tmux-resurrect-and-continuum.html
+
+set-option -g default-command "reattach-to-user-namespace -l zsh"
+
+### LOOK & FEEL ###
+set -g default-terminal "xterm-256color"
+
+# default statusbar colors
+set-option -g status-bg colour235
+set-option -g status-fg colour179
+set-option -g status-attr default
+
+# default window title colors
+set-window-option -g window-status-fg colour244
+set-window-option -g window-status-bg default
+
+# active window title colors
+set-window-option -g window-status-current-fg colour166
+set-window-option -g window-status-current-bg default
+set-window-option -g window-status-current-attr bright
+
+# pane border
+set-option -g pane-border-fg colour235
+set-option -g pane-active-border-fg colour240
+
+# pane number display
+set-option -g display-panes-active-colour colour33
+set-option -g display-panes-colour colour166
+
+# clock
+set-window-option -g clock-mode-colour colour64
+
+# status bar right contents
+set -g status-right-length 65
+set -g status-right "#[fg=colour187][#(itunesartist) - #(itunestrack)] #[fg=default][%H:%M %e-%b-%Y]"
+set -g status-interval 5
+
+set -g mouse on
+bind -n WheelUpPane   select-pane -t= \; copy-mode -e \; send-keys -M
+bind -n WheelDownPane select-pane -t= \;                 send-keys -M
+
+set-option -g status-keys vi
+set-option -g mode-keys vi
+
+#no command delay
+set -sg escape-time 0
+
+#count windows and panes from 1
+set -g base-index 1
+setw -g pane-base-index 1
+
+### KEYS ###
+
+#using C-a as prefix
+unbind C-b
+set-option -g prefix C-a
+bind C-a send-prefix
+
+unbind /
+bind / last-window
+
+unbind %
+bind s split-window -v -c '#{pane_current_path}'
+unbind '"'
+bind v split-window -h -c '#{pane_current_path}'
+
+bind h select-pane -L
+bind j select-pane -D
+bind k select-pane -U
+bind l select-pane -R
+
+bind L resize-pane -L 10  # 向左扩展
+bind R resize-pane -R 10  # 向右扩展
+bind K resize-pane -U 5   # 向上扩展
+bind J resize-pane -D 5   # 向下扩展
+
+unbind {
+bind { swap-pane -D
+unbind }
+bind } swap-pane -U
+
+unbind r
+bind r source-file ~/.tmux.conf \; display "Reloaded!"
+
+bind Escape copy-mode
+bind p paste-buffer
+bind -t vi-copy 'v' begin-selection
+bind -t vi-copy 'y' copy-selection
+bind C-c run "tmux save-buffer - | reattach-to-user-namespace pbcopy"
+bind C-v run "reattach-to-user-namespace pbpaste | tmux load-buffer - && tmux paste-buffer"
+
+unbind [
+bind [ previous-window
+unbind ]
+bind ] next-window
+
+unbind o
+bind o select-pane -t :.-
+
+bind C-q command-prompt -I "htop" -p "Quick window command: " "new-window '%%'"
+
+bind C-s choose-session
+
+# kill pane (prefix q)
+bind q killp
+# kill window (prefix Ctrl+q)
+bind ^q killw
+
+# List of plugins
+set -g @plugin 'tmux-plugins/tpm'
+set -g @plugin 'tmux-plugins/tmux-sensible'
+set -g @plugin 'tmux-plugins/tmux-yank'
+set -g @plugin 'tmux-plugins/tmux-resurrect'
+set -g @plugin 'tmux-plugins/tmux-continuum'
+
+set -g @continuum-boot 'on'
+set -g @continuum-restore 'on'
+# set -g @continuum-boot-options 'fullscreen'
+set -g @continuum-save-interval '60'
+
+# Initialize TMUX plugin manager (keep this line at the very bottom of tmux.conf)
+run '~/.tmux/plugins/tpm/tpm'
+```
+
+> 注意：
+  - 在使用 `tmux-resurrect` 插件来恢复配置环境时，如果有多个 `window` 而且都进行了重命名，这时候第一个 `window` 的名称是无法恢复的，这应该是官方的一个 [`issue`](https://github.com/tmux-plugins/tmux-resurrect/issues/95) 截止到 `2016-09-13` 还没有修复，如果有修复会随时更新。
+
 ## Node
 
 就像上面的 Pyenv ，所有的脚本语言都需要一个 Version Manager， JavaScript 也不例外，这里推荐 NVM，当然也可以用 n， [NVM](https://github.com/creationix/nvm) 安装和更新方法如下：
