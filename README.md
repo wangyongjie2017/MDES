@@ -24,6 +24,8 @@ MDES 就是为了解决上述问题而诞生，下面记录了 mac 上常用的�
 - [youtube-dl](#youtube-dl)
 - [Consolas Font](#consolas-font)
 - [tmux](#tmux)
+  + [plugin](#plugin)
+  + [config](#config)
 - [Node](#node)
   + [Express](#express)
   + [Gulp](#gulp)
