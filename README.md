@@ -759,11 +759,11 @@ rvm use ruby-version@gemset-name --default
 ```
 
 > 注意:
-> 1. 这里用到了 `gemset` 来隔离不同版本的 Cocoapods，另外 `rvm` 自带 `global` 和 `default` 的两个默认 `gemset`，如果没有选择 `gemset` 默认安装在 `default` 下，如果使用 `sudo gem` 权限来安装，则会直接安装到 `global` 下，大家可以根据自己的期望安装
+> 1.这里用到了 `gemset` 来隔离不同版本的 Cocoapods，另外 `rvm` 自带 `global` 和 `default` 的两个默认 `gemset`，如果没有选择 `gemset` 默认安装在 `default` 下，如果使用 `sudo gem` 权限来安装，则会直接安装到 `global` 下，大家可以根据自己的期望安装
 
-> 2. 当升级到 1.0.1 以上的 `CocoaPods` 时，在 `Xcode` 的 `Build Phases` 已经不再把 `[CP]` 显示为 `emoji`，详细请查看 [1.0.1 CHANGELOG](https://github.com/CocoaPods/CocoaPods/blob/master/CHANGELOG.md)
+> 2.当升级到 1.0.1 以上的 `CocoaPods` 时，在 `Xcode` 的 `Build Phases` 已经不再把 `[CP]` 显示为 `emoji`，详细请查看 [1.0.1 CHANGELOG](https://github.com/CocoaPods/CocoaPods/blob/master/CHANGELOG.md)
 
-> 3. 当采用 `CocoaPods-1.1.0 RC + Realm` 时，会报 ``` sh: build.sh: No such file or directory ``` 的错误，此时需要在相应的命令前添加 [`FORK_XCODE_WRITING=true` 的命令](https://github.com/CocoaPods/CocoaPods/issues/5873)
+> 3.当采用 `CocoaPods-1.1.0 RC + Realm` 时，会报 ``` sh: build.sh: No such file or directory ``` 的错误，此时需要在相应的命令前添加 [`FORK_XCODE_WRITING=true` 的命令](https://github.com/CocoaPods/CocoaPods/issues/5873)
 
 
 随着 1.0+ 版本的发布，可以根据自己的喜好来安装 [Cocoapods App](https://cocoapods.org/app).
