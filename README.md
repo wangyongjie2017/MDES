@@ -738,7 +738,7 @@ gem install cocoapods -v 0.39.0
 
 `Xcode 8` 中如果只是采用 `Cocoapods` 的安装依赖的功能，其实用 `1.0.x` 的版本也是可以的，但是如果要用到 `pod lib`、`pod spec`、`pod repo` 等命令时，就会出现各种问题，这时候需要升级到 `1.1.0` 的版本。
 
-在升级 Cocoapods 1.1.0 RC 版本时，如果采用的是 [淘宝的 gem 源](https://ruby.taobao.org/)，是无法更新到最新的 `RC` 版的，那么第一步就要把 `gem` 源换回来。
+在升级 Cocoapods 1.1.0 RC 版本时，如果采用的是 [淘宝的 gem 源](https://ruby.taobao.org/)是无法更新到最新的 `RC` 版的，[那么第一步就要把 `gem` 源换回来](https://github.com/CocoaPods/CocoaPods/issues/5872)。
 
 ```
 gem sources --add https://rubygems.org/ --remove https://ruby.taobao.org/
@@ -761,7 +761,7 @@ rvm use ruby-version@gemset-name --default
 > 注意:
 1. 这里用到了 `gemset` 来隔离不同版本的 Cocoapods，另外 `rvm` 自带 `global` 和 `default` 的两个默认 `gemset`，如果没有选择 `gemset` 默认安装在 `default` 下，如果使用 `sudo gem` 权限来安装，则会直接安装到 `global` 下，大家可以根据自己的期望安装
 2. 当升级到 1.0.1 以上的 `CocoaPods` 时，在 `Xcode` 的 `Build Phases` 已经不再把 `[CP]` 显示为 `emoji`，详细请查看 [1.0.1 CHANGELOG](https://github.com/CocoaPods/CocoaPods/blob/master/CHANGELOG.md)
-3. 当采用 `CocoaPods-1.1.0 RC + Realm` 时，会报 ``` sh: build.sh: No such file or directory ``` 的错误，此时需要在相应的命令前添加 `FORK_XCODE_WRITING=true` 的命令
+3. 当采用 `CocoaPods-1.1.0 RC + Realm` 时，会报 ``` sh: build.sh: No such file or directory ``` 的错误，此时需要在相应的命令前添加 [`FORK_XCODE_WRITING=true` 的命令](https://github.com/CocoaPods/CocoaPods/issues/5873)
 
 
 随着 1.0+ 版本的发布，可以根据自己的喜好来安装 [Cocoapods App](https://cocoapods.org/app).
