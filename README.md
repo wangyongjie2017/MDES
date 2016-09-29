@@ -63,7 +63,7 @@ MDES 就是为了解决上述问题而诞生，下面记录了 mac 上常用的�
 作为一个开发者，尤其是他妈的中国开发者（对不起这里爆粗口了），如果不能够访问谷歌等同于缺少了一个解决问题的利器，所以要做的第一步就是要搞科学上网，安装配置最简单的工具就是 [lantern](https://github.com/getlantern/lantern).
 
 ## GreenVPN  
-[GreenVPN](https://www.getgreenjsq.com/) 上大学的时候就在用了，算是一种留恋吧，不过平常用的很少了.
+[GreenVPN](https://www.green-jsq.org) 上大学的时候就在用了，算是一种留恋吧，不过平常用的很少了.
 
 ## Xcode  
 
