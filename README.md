@@ -30,7 +30,7 @@ MDES 就是为了解决上述问题而诞生，下面记录了 mac 上常用的�
   + [Express](#express)
   + [Gulp](#gulp)
   + [Recipes](#recipes)
-  + [Other](#other)
+  + [Tips](#tips)
 - [Atom](#atom)
   + [plugins](#plugins)
   + [themes](#themes)
@@ -571,7 +571,7 @@ npm install --global gulp-cli
 - [Browsify](https://github.com/substack/node-browserify)
 - [browsersync](https://www.browsersync.io)
 
-### Other
+### Tips
 有时候需要查看全局和工程中已安装的 `npm` 包，每次都要手写命令比较麻烦，给出一劳永逸的方法：
 
 ```
