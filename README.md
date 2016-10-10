@@ -1025,6 +1025,7 @@ brew install mongodb
 14. Gliffy
 15. [CheatSheet](https://www.mediaatelier.com/CheatSheet/) - 快捷键快速查找工具
 16. [Bartender](https://www.macbartender.com) - 状态栏工具
+17. [Dash](https://kapeli.com/dash) - OSX API documentation sets.
 
 ## TODO
 - [x] make the MDES document
