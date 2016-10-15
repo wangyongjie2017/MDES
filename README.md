@@ -1017,7 +1017,7 @@ brew install mongodb
 5. 网易云音乐
 6. Foxmail
 7. Mindnode
-8. OmniPlan - Mac 上优秀的项目管理软件
+8. [OmniPlan](https://www.omnigroup.com/omniplan) - Mac 上优秀的项目管理软件
 9. [wakatime](https://wakatime.com/) - 量化你的代码
 10. [rescuetime](https://www.rescuetime.com/) - 工作习惯养成
 11. [trackingtime](https://trackingtime.co/)
