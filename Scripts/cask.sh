@@ -22,3 +22,22 @@ brew cask install google-chrome
 
 # WWDC
 brew cask install wwdc
+
+# Intellij
+brew cask install intellij-idea
+brew cask install webstorm
+brew cask install pycharm
+brew cask install android-studio
+
+# Dropbox
+brew cask install dropbox
+
+# cheatsheet
+brew cask install cheatsheet
+
+# sourcetree
+brew cask install sourcetree
+
+# genymotion
+brew cask install virtualbox
+brew cask install genymotion

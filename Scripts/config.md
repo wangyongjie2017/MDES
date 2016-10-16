@@ -4,3 +4,4 @@
 - Config the font of Xcode, Atom, Terminal
 - Chrome Login & Async Config
 - Test you-get youtube-dl
+- Install Sketch plugins

@@ -12,3 +12,11 @@ brew install asciinema
 pyenv shell 3.5.0
 pip install you-get
 pip install --upgrade youtube-dl
+
+# baidu pcs
+j github
+git clone https://github.com/GangZhuo/BaiduPCS.git
+cd BaiduPCS
+make clean
+make
+make install #将安装到/usr/local/bin下
