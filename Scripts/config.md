@@ -1,2 +1,6 @@
-1. Chrome Login & Async Config
-2. .zshrc
+- Config Terminal
+- Config .zshrc
+- Config Xcode Theme
+- Config the font of Xcode, Atom, Terminal
+- Chrome Login & Async Config
+- Test you-get youtube-dl

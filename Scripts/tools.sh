@@ -7,3 +7,8 @@ brew install tree
 
 # asciinema
 brew install asciinema
+
+# you-get - youtube-dl
+pyenv shell 3.5.0
+pip install you-get
+pip install --upgrade youtube-dl

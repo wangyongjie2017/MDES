@@ -600,8 +600,8 @@ registry = https://registry.npm.taobao.org
 - pigments
 - project-manager
 - wakatime
-- nuclide
-- omnisharp
+- nuclide [必要时再安装]
+- omnisharp [必要时再安装]
 
   OmniSharp 可以让你更好的进行 .NET 跨平台开发。支持 `Atom`、`Brackets`、`Terminal`、`Emacs`、`Sublime Text`、`Vim`、`Visual Studio Code` ，基本上市面上比较流程的编辑器都支持了。这里主要介绍下如何结合 Atom 使用：
 

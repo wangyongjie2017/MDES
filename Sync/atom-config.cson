@@ -1,0 +1,21 @@
+"*":
+  core:
+    telemetryConsent: "limited"
+    themes: [
+      "seti-ui"
+      "one-dark-syntax"
+    ]
+  editor:
+    fontFamily: "Consolas"
+    fontSize: 16
+    preferredLineLength: 100
+    showIndentGuide: true
+    softWrap: true
+    softWrapAtPreferredLineLength: true
+  "exception-reporting":
+    userId: "c674a424-5af5-ce47-581d-aeab6afbe22d"
+  "seti-ui":
+    compactView: true
+    disableAnimations: true
+  welcome:
+    showOnStartup: false

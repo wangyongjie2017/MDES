@@ -1,3 +1,10 @@
+#Command line tools
+xcode-select --install
+
+## Git
+ssh-keygen -t rsa -b 4096 -C "xxxx@xxx.com" -f ~/.ssh/id_rsa_github
+eval "$(ssh-agent -s)"
+ssh-add ~/.ssh/id_rsa_github
 
 # oh-my-zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
@@ -6,7 +13,7 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/mas
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 brew doctor
 
-# Font
+# Font Consolas
 brew install cabextract
 cd ~/Downloads
 mkdir consolas
@@ -16,5 +23,7 @@ cabextract PowerPointViewer.exe
 cabextract ppviewer.cab
 open CONSOLA*.TTF
 
-cd ..
-rm -rf consolas
+# MDES
+mkdir ~/ROOT/codes/github
+cd ~/ROOT/codes/github
+git clone git@github.com:CoderAFI/MDES.git
