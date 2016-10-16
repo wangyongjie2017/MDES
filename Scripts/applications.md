@@ -4,7 +4,6 @@ sudo spctl --master-disable
 
 - Tower
 - CornerStone
-
 - Sketch
 
 > 注意：

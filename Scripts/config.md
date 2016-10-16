@@ -5,3 +5,6 @@
 - Chrome Login & Async Config
 - Test you-get youtube-dl
 - Install Sketch plugins
+- Sync Intellij IDES configs
+- Download Android SDK && Genymotion && Sync Android Studio configs
+- Windows 7 & Windows 10 VirtualBox Install
