@@ -30,6 +30,7 @@
 - develop.sh    开发工具
 - cask.sh       Homebrew cask 安装程序
 - tools.sh      一些辅助脚本
+- seq.sh        按照顺序列出文件
 
 ## Applications
 
@@ -42,3 +43,7 @@
 ## Final
 
 最后，打开安装好的各类软件和配置，使用起来吧 0__0 ! 验证下用我的这种方式是不是省时又省力。
+
+
+> 注意：
+  如果仍然需要参照各种工具的按照详细过程，请参照 老版本的 [Guide](https://github.com/CoderAFI/MDES/blob/Sierra/Guide.md)。
