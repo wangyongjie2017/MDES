@@ -21,3 +21,12 @@
 - [ ] [Carthage-介绍](todo)
 - [ ] [Carthage-使用指南](todo)
 - [ ] [Carthage-创建公共依赖库并发布](todo)
+
+## TODO
+- [x] make the MDES document
+- [x] add PHP Environment
+- [x] use `Homebrew` and `Homebrew-Cask` install the MDES
+- [ ] Directory list
+- [ ] collect from community
+- [ ] save IDE config online
+- [ ] Swift Commdant Support

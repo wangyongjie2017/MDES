@@ -29,3 +29,14 @@ brew install carthage
 pyenv shell 3.5.0
 pip install Scrapy
 pip install --upgrade pip
+
+# Mysql
+brew install mysql
+brew services start mysql
+
+# MangoDB
+brew install mongodb
+sudo mkdir -p /data/db
+sudo chown -R `id -u` /data/db
+mongod
+mongo

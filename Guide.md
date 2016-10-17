@@ -1028,11 +1028,3 @@ brew install mongodb
 16. [Bartender](https://www.macbartender.com) - 状态栏工具
 17. [Dash](https://kapeli.com/dash) - OSX API documentation sets.
 18. [mpv](https://mpv.io) - a free, open source, and cross-platform media player
-
-## TODO
-- [x] make the MDES document
-- [ ] add PHP Environment
-- [ ] Directory list
-- [ ] use `Homebrew` and `Homebrew-Cask` install the MDES
-- [ ] collect from community
-- [ ] save IDE config online
