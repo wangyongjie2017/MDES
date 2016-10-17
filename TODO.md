@@ -1,8 +1,9 @@
-1. rewrite the README.md
-2. 重新添加 gitignore
-3. 保持一份完整的 master 分支，重新建立 develop 分支
-4. MDES shell using Swift
-5. 文章
+## MDES
+- [x] rewrite the README.md
+- [x] 重新添加 gitignore
+- [x] 保持一份完整的 master 分支，重新建立 develop 分支
+- [ ] MDES shell using Swift
+- [ ] 下面的 CocoaPods VS Carthage 的文章
 
 ### CocoaPods vs Carthage
 
@@ -22,7 +23,7 @@
 - [ ] [Carthage-使用指南](todo)
 - [ ] [Carthage-创建公共依赖库并发布](todo)
 
-## TODO
+## Setup
 - [x] make the MDES document
 - [x] add PHP Environment
 - [x] use `Homebrew` and `Homebrew-Cask` install the MDES
