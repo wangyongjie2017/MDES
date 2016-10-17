@@ -21,28 +21,34 @@ gem install cocoapods --pre
 
 rvm use ruby-2.3.0@pods-1.1.0-rc --default
 
+rvm gemset list
+pod --version
+
 # Carthage
 brew update
 brew install carthage
+carthage help
 
 # Scrapy
 pyenv shell 3.5.0
 pip install Scrapy
 pip install --upgrade pip
+scrapy --help
 
 # Mysql
 brew install mysql
 brew services start mysql
 
+# mysqlworkbench
+brew cask install mysqlworkbench
+
 # MangoDB
 brew install mongodb
 sudo mkdir -p /data/db
 sudo chown -R `id -u` /data/db
+
 mongod
 mongo
-
-# mysqlworkbench
-brew cask install mysqlworkbench
 
 # robomongo
 brew cask install robomongo

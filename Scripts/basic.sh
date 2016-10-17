@@ -23,7 +23,9 @@ cabextract PowerPointViewer.exe
 cabextract ppviewer.cab
 open CONSOLA*.TTF
 
-# MDES
-cd ~/Downloads
-curl -o- https://github.com/CoderAFI/MDES/archive/v0.1.0.tar.gz
-tar -zxvf v0.1.0.tar.gz MDES
+# Brew Cask
+brew tap caskroom/cask
+brew update
+
+# Sierra Gatekeeper
+sudo spctl --master-disable

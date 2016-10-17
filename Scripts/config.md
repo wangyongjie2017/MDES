@@ -7,4 +7,5 @@
 - sync Intellij IDES configs
 - download Android SDK && Genymotion && Sync Android Studio configs
 - config tmux
+- config Dropbox
 - Windows 7 & Windows 10 VirtualBox Install
