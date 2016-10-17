@@ -1,7 +1,8 @@
 # Github CoderAFI (developer_afi@163.com)
 Host github.com
-Hostname github.com
 User CoderAFI
+PreferredAuthentications publickey
+ProxyCommand nc -X 5 -x 127.0.0.1:1080 %h %p
 Identityfile ~/.ssh/id_rsa_github
 
 # Coding.net (developer_afi@163.com)
@@ -9,3 +10,23 @@ Host git.coding.net
 User CoderAFI
 PreferredAuthentications publickey
 IdentityFile ~/.ssh/id_rsa_coding.net
+
+# Coding.net (developer_afi@163.com)
+Host bitbucket.org
+User CoderAFI
+PreferredAuthentications publickey
+ProxyCommand nc -X 5 -x 127.0.0.1:1080 %h %p
+IdentityFile ~/.ssh/id_rsa_bitbucket
+
+# Gitlab (sunyanfei@gomeplus.com)
+Host 10.69.213.78
+Port 6022
+User CoderAFI
+PreferredAuthentications publickey
+IdentityFile ~/.ssh/id_rsa_meixin_gitlab
+
+Host gitlab.codinglife.cc
+User developer_afi@163.com
+PreferredAuthentications publickey
+ProxyCommand nc -X 5 -x 127.0.0.1:1080 %h %p
+IdentityFile ~/.ssh/id_rsa_gitlab_codinglife
