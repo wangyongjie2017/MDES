@@ -83,22 +83,39 @@ export LANG=en_US.UTF-8
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-export PYENV_ROOT="$HOME/.pyenv"
-export PATH="$PYENV_ROOT/bin:$PATH"
-eval "$(pyenv init -)"
-alias brew='"env" PATH=${PATH//$(pyenv root)\/shims:/} brew'
 
 export NVM_DIR="/Users/CoderAFI/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
 alias ng="npm list -g --depth=0 2>/dev/null"
 alias nl="npm list --depth=0 2>/dev/null"
 
-export PATH="/usr/local/share/dotnet:$PATH"
-
-[[ -s $(brew --prefix)/etc/profile.d/autojump.sh ]] && . $(brew --prefix)/etc/profile.d/autojump.sh
-
-export PATH="/usr/local/Cellar/mongodb/3.2.9/bin:$PATH"
+export PYENV_ROOT=/usr/local/var/pyenv
+if which pyenv > /dev/null; then eval "$(pyenv init -)"; fi
+alias brew='"env" PATH=${PATH//$(pyenv root)\/shims:/} brew'
 
 export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
 
+[[ -s $(brew --prefix)/etc/profile.d/autojump.sh ]] && . $(brew --prefix)/etc/profile.d/autojump.sh
+
+# open a new tab on Terminal with the current working dir
+function newtab() {
+	osascript -e "
+		tell application \"System Events\" to tell process \"Terminal\" to keystroke \"t\" using command down
+		tell application \"Terminal\" to do script \"cd \\\"$(PWD)\\\"\" in selected tab of the front window
+	" > /dev/null 2>&1
+}
+
+# close current tab
+function closetab() {
+  osascript -e "
+		tell application \"System Events\" to tell process \"Terminal\" to keystroke \"w\" using command down
+	" > /dev/null 2>&1
+}
+
 function gi() { curl -L -s https://www.gitignore.io/api/$@ ;}
+
+export http_proxy='http://127.0.0.1:1087'
+export https_proxy='http://127.0.0.1:1087'
+
+# export PATH="/usr/local/share/dotnet:$PATH"
+# export PATH="/usr/local/Cellar/mongodb/3.2.9/bin:$PATH"
