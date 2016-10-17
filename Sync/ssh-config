@@ -1,0 +1,11 @@
+# Github CoderAFI (developer_afi@163.com)
+Host github.com
+Hostname github.com
+User CoderAFI
+Identityfile ~/.ssh/id_rsa_github
+
+# Coding.net (developer_afi@163.com)
+Host git.coding.net
+User CoderAFI
+PreferredAuthentications publickey
+IdentityFile ~/.ssh/id_rsa_coding.net

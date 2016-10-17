@@ -1,7 +1,7 @@
 ./basic.sh
 ./language.sh
 ./develop.sh
-./ide.sh
 ./cask.sh
+./tools.sh
 ./applications.md
 ./config.md
