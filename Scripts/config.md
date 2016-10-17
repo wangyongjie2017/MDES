@@ -1,0 +1,10 @@
+- config Terminal
+- sync .zshrc
+- config Xcode Theme
+- config the font of Xcode, Atom, Terminal
+- chrome Login & Async Config
+- install Sketch plugins
+- sync Intellij IDES configs
+- download Android SDK && Genymotion && Sync Android Studio configs
+- config tmux
+- Windows 7 & Windows 10 VirtualBox Install
