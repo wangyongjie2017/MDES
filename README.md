@@ -46,4 +46,4 @@
 
 
 > 注意：
-  如果仍然需要参照各种工具的按照详细过程，请参照 老版本的 [Guide](https://github.com/CoderAFI/MDES/blob/Sierra/Guide.md)。
+  如果仍然需要参照各种工具的按照详细过程，请参照老版本的 [Guide](https://github.com/CoderAFI/MDES/blob/Sierra/Guide.md)。
