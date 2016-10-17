@@ -40,3 +40,9 @@ sudo mkdir -p /data/db
 sudo chown -R `id -u` /data/db
 mongod
 mongo
+
+# mysqlworkbench
+brew cask install mysqlworkbench
+
+# robomongo
+brew cask install robomongo

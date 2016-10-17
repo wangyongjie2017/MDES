@@ -38,9 +38,3 @@ brew cask install genymotion
 
 # visual studio code
 brew cask install visual-studio-code
-
-# mysqlworkbench
-brew cask install mysqlworkbench
-
-# robomongo
-brew cask install robomongo
