@@ -2,9 +2,6 @@
 - Tower
 - CornerStone
 
-## FTP
-- Transmit
-
 ## System
 - iStatMenus
 - CleanMyMac
@@ -13,7 +10,6 @@
 - WeiXin
 - QQ
 - 网易云音乐
-- Foxmail
 - Mindnode
 - [OmniPlan](https://www.omnigroup.com/omniplan) - Mac 上优秀的项目管理软件
 - [wakatime](https://wakatime.com/) - 量化你的代码
@@ -24,7 +20,6 @@
 - [Bartender](https://www.macbartender.com) - 状态栏工具
 - [Dash](https://kapeli.com/dash) - OSX API documentation sets.
 - [mpv](https://mpv.io) - a free, open source, and cross-platform media player
-- Telegram
 
 ## Design
 - [Sketch](https://www.sketchapp.com/) - 码农必备设计工具，支持各种插件，这里给出一些常用的插件：
@@ -42,10 +37,12 @@
   + [Sketch-SF-UI-Font-Fixer](https://github.com/kylehickinson/Sketch-SF-UI-Font-Fixer)
   + [San Francisco Fonts](https://developer.apple.com/fonts/)
   + [sketch-notebook](http://marcosvid.al/sketch-notebook/)
+- [RightFont](https://rightfontapp.com/)
 - PhotoShop
 - Adobe DX
 - [Logoist](http://www.syniumsoftware.com/logoist) - 傻瓜式 `Logo` 设计工具
 - Sip
+- [PaintCode](https://www.paintcodeapp.com/)
 
 ## DataBase
 - [NavicatSQL](https://www.navicat.com)
