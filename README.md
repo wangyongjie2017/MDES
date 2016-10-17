@@ -33,45 +33,12 @@
 
 ## Applications
 
-在 `applications.md` 中罗列出了一些必装应用，供使用者选择。
+在 `/Scripts/applications.md` 中列出了一些必装应用，供使用者选择。
 
-### GitProxy
+## Config
 
-这里主要是讲解下 `Git` 与 `Shadowsocks` 配合来做代理：
+在 `/Scripts/config.md` 中指出了一些常用的配置项。
 
-- HTTP(S) 协议
+## Final
 
-全局代理：
-
-```
-git config --global http.proxy socks5://127.0.0.1:1080
-git config --global http.proxy socks5://127.0.0.1:1080
-```
-
-只对特定 `URL` 设置代理：
-
-```
-git config --global http.<要设置代理的URL>.proxy socks5://127.0.0.1:1080
-git config --global http.https://github.com.proxy socks5://127.0.0.1:1080
-```
-
-- SSH 协议
-
-全局代理：
-
-修改 `/etc/ssh/ssh_config` 配置文件，添加如下脚本：
-
-```
-ProxyCommand nc -X 5 -x 127.0.0.1:1080 %h %p
-```
-
-只对特定 `URL` 设置代理：
-
-修改 `~/.ssh/config` 配置文件，在需要设置代理的 `config` 项中，添加如下脚本配置：
-
-```
-ProxyCommand nc -X 5 -x 127.0.0.1:1080 %h %p
-```
-
-## ReactNative
-[DecoIDE]https://www.decosoftware.com/
+最后，打开安装好的各类软件和配置，使用起来吧 0__0 ! 验证下用我的这种方式是不是省时又省力。

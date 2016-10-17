@@ -1,12 +1,10 @@
-- Config Terminal
-- Config .zshrc
-- Config Xcode Theme
-- Config the font of Xcode, Atom, Terminal
-- Chrome Login & Async Config
-- Test you-get youtube-dl
-- Install Sketch plugins
-- Sync Intellij IDES configs
-- Download Android SDK && Genymotion && Sync Android Studio configs
+- config Terminal
+- sync .zshrc
+- config Xcode Theme
+- config the font of Xcode, Atom, Terminal
+- chrome Login & Async Config
+- install Sketch plugins
+- sync Intellij IDES configs
+- download Android SDK && Genymotion && Sync Android Studio configs
+- config tmux
 - Windows 7 & Windows 10 VirtualBox Install
-- Config tmux
-- Test ssh

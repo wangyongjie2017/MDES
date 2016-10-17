@@ -5,3 +5,4 @@
 ./tools.sh
 ./applications.md
 ./config.md
+./final.sh
