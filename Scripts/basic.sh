@@ -24,6 +24,6 @@ cabextract ppviewer.cab
 open CONSOLA*.TTF
 
 # MDES
-mkdir ~/ROOT/codes/github
+mkdir -p ~/ROOT/codes/github
 cd ~/ROOT/codes/github
 git clone git@github.com:CoderAFI/MDES.git
