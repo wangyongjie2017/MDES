@@ -9,3 +9,4 @@
 - config tmux
 - config Dropbox
 - Windows 7 & Windows 10 VirtualBox Install
+- sync ssh config - `chmod 600 ...`
