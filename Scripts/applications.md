@@ -52,5 +52,9 @@
 - [XamarinStudio](https://www.xamarin.com/download) - CrossPlatform C# IDE
 - [DecoIDE]https://www.decosoftware.com/ -  ReactNative IDE
 
+## Office
+- Microsoft Office
+- NTFS - 磁盘工具
+
 > 注意：
   这里主要是一些收费软件，如果要使用破解版则必须要手动去找安装包。
