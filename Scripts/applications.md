@@ -21,6 +21,7 @@
 - [Dash](https://kapeli.com/dash) - OSX API documentation sets.
 - [mpv](https://mpv.io) - a free, open source, and cross-platform media player
 - [奇妙清单](https://www.wunderlist.com)
+- [Transmit](https://panic.com/transmit/)
 
 ## Design
 - [Sketch](https://www.sketchapp.com/) - 码农必备设计工具，支持各种插件，这里给出一些常用的插件：
