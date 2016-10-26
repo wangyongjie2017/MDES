@@ -15,11 +15,11 @@ rvm gemset create pods-1.0.1
 rvm gemset use pods-1.0.1
 gem install cocoapods -v 1.0.1
 
-rvm gemset create pods-1.1.0-rc
-rvm gemset use pods-1.1.0-rc
-gem install cocoapods --pre
+rvm gemset create pods-1.1.1
+rvm gemset use pods-1.1.1
+gem install cocoapods -v 1.1.1
 
-rvm use ruby-2.3.0@pods-1.1.0-rc --default
+rvm use ruby-2.3.0@pods-1.1.1 --default
 
 rvm gemset list
 pod --version
