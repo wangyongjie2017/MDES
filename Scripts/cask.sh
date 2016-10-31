@@ -15,7 +15,7 @@ cp ~/ROOT/codes/github/MDES/Sync/atom-config.cson ~/.atom/config.cson
 brew cask install visual-studio-code
 
 # Chrome WWDC Dropbox cheatsheet sourcetree transmit foxmail telegram slack
-brew cask install google-chrome wwdc dropbox cheatsheet sourcetree foxmail telegram slack
+brew cask install google-chrome wwdc dropbox cheatsheet sourcetree foxmail telegram slack insomnia
 
 # Intellij
 brew cask install intellij-idea webstorm pycharm android-studio
