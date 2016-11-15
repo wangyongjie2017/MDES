@@ -14,9 +14,9 @@
 - [OmniPlan](https://www.omnigroup.com/omniplan) - Mac 上优秀的项目管理软件
 - [wakatime](https://wakatime.com/) - 量化你的代码
 - [rescuetime](https://www.rescuetime.com/) - 工作习惯养成
-- [trackingtime](https://trackingtime.co/)
-- Charles
-- Gliffy
+- [trackingtime](https://trackingtime.co/) - 时间统计
+- [Charles](https://www.charlesproxy.com/) - Mac 抓包利器
+- [Gliffy](https://www.gliffy.com/) - Diagram
 - [Bartender](https://www.macbartender.com) - 状态栏工具
 - [Dash](https://kapeli.com/dash) - OSX API documentation sets.
 - [mpv](https://mpv.io) - a free, open source, and cross-platform media player
@@ -25,11 +25,10 @@
 - [Edraw Max Pro](https://www.edrawsoft.com)
 - [Ulysses](https://ulyssesapp.com/) - 写作神器
 - [Invision](https://www.invisionapp.com/) - 设计流程控制平台
-- [Macaw](http://macaw.co/) - 有悟性的网页设计工具，可惜被 `Invision` 收购了
 - [奇妙清单](https://www.wunderlist.com) - 任务管理工具
 - [Trello](https://trello.com/) - 任务管理工具，感觉比奇妙清单好用
 
-## Design
+## UI Design
 - [Sketch](https://www.sketchapp.com/) - 码农必备设计工具，支持各种插件，这里给出一些常用的插件：
   + [ArtboardZoom](https://github.com/arkkimaagi/artboardzoom)
   + [Craft](https://www.invisionapp.com/craft) - 不装后悔
@@ -52,6 +51,11 @@
 - Sip
 - [PaintCode](https://www.paintcodeapp.com/)
 - [axure](http://www.axure.com/)
+
+## Web Design
+- [Macaw](http://macaw.co/) - 有悟性的网页设计工具，可惜被 `Invision` 收购了
+- [Xpressive](https://xpressive.org/) - 网页设计可视化工具
+- [blocs](http://blocsapp.com/) - An easy to use visual web design app.
 
 ## DataBase
 - [NavicatSQL](https://www.navicat.com)
