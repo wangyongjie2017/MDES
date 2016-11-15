@@ -23,6 +23,11 @@ cabextract PowerPointViewer.exe
 cabextract ppviewer.cab
 open CONSOLA*.TTF
 
+# Font Fira Code
+git clone git@github.com:tonsky/FiraCode.git
+cd FiraCode/distr/otf
+open FiraCode-*.otf
+
 # Brew Cask
 brew tap caskroom/cask
 brew update

@@ -1,7 +1,7 @@
 - config Terminal
 - sync .zshrc
 - config Xcode Theme
-- config the font of Xcode, Atom, Terminal
+- config the font (Consolas or FiraCode) of Xcode, Atom, Terminal
 - chrome Login & Async Config
 - install Sketch plugins
 - sync Intellij IDES configs
