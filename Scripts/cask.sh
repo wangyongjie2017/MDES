@@ -14,6 +14,8 @@ cp ~/ROOT/codes/github/MDES/Sync/atom-config.cson ~/.atom/config.cson
 # visual studio code
 brew cask install visual-studio-code
 
+code --install-extension vscode-icons EditorConfig sass-indented Material-theme Theme-TomorrowKit jsx csharp ReactSnippetsStandard
+
 # Chrome WWDC Dropbox cheatsheet sourcetree transmit foxmail telegram slack insomnia sitesucker Hyper(Terminal)
 brew cask install google-chrome wwdc dropbox cheatsheet sourcetree foxmail telegram slack insomnia sitesucker hyper
 
