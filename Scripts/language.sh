@@ -27,3 +27,6 @@ rvm list
 # JAVA
 brew cask install java
 java -version
+
+# dotnet
+visit https://www.microsoft.com/net/core#macos
