@@ -14,7 +14,7 @@
 
 ## Start
 
-1. [GreenVPN](https://www.green-jsq.org)，科学上网利器，不过收费。
+1. [GreenVPN](http://www.greenvpn.site)，科学上网利器，不过收费。
 2. [Xcode 8](https://developer.apple.com/xcode/)
 
 在 macOS 系统上，安装其他开发工具之前先安装 `Xcode` 是一个良好的习惯，即便你不是一个 iOS/OSX 开发者，因为在安装了 Xcode 之后，像 git 以及一些 c/c++/clang 的编译工具也默认安装了，具体的安装方法有两种：一是通过 AppStore 进行安装，二是通过 [Apple Developer](developer.apple.com)下载 dmg 文件进行安装，除此之外其他安装方式都不能保证安全.

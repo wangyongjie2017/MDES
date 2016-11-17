@@ -4,7 +4,7 @@ xcode-select --install
 ## Git
 ssh-keygen -t rsa -b 4096 -C "xxxx@xxx.com" -f ~/.ssh/id_rsa_github
 eval "$(ssh-agent -s)"
-ssh-add ~/.ssh/id_rsa_github
+ssh-add -K ~/.ssh/id_rsa_github
 
 # oh-my-zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
