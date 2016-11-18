@@ -9,9 +9,10 @@ ng
 
 # Python
 brew install pyenv
-echo 'export PYENV_ROOT=/usr/local/var/pyenv' >> ~/.zshrc
+# To use Homebrew's directories rather than ~/.pyenv add follow line to your profile:
+# echo 'export PYENV_ROOT=/usr/local/var/pyenv' >> ~/.zshrc
 echo 'if which pyenv > /dev/null; then eval "$(pyenv init -)"; fi' >> ~/.zshrc
-user manual > alias brew='"env" PATH=${PATH//$(pyenv root)\/shims:/} brew'
+echo 'alias brew="env PATH=${PATH//$(pyenv root)\/shims:} brew"' >> ~/.zshrc
 pyenv install 3.5.0
 pyenv versions
 
