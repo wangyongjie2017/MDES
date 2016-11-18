@@ -8,7 +8,7 @@ curl ip.gs
 brew cask install atom
 apm install file-icons git-time-machine pigments project-manager emmet atom-beautify
 # 可选安装 apm install wakatime nuclide omnisharp autocomplete-modules atom-ternjs atom-css-comb sync-settings
-apm install nucleus-dark-ui Seti-ui
+apm install nucleus-dark-ui Seti-ui seti-syntax
 cp ~/ROOT/codes/github/MDES/Sync/atom-config.cson ~/.atom/config.cson
 
 # visual studio code
