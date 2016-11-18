@@ -44,6 +44,7 @@ brew cask install mysqlworkbench
 
 # MangoDB
 brew install mongodb
+brew services start mongodb
 sudo mkdir -p /data/db
 sudo chown -R `id -u` /data/db
 
@@ -56,7 +57,7 @@ brew cask install robomongo
 # Yarn
 brew update
 brew install yarn
-echo 'export PATH="$PATH:$HOME/.yarn/bin' >> ~/.zshrc
+echo 'export PATH="$PATH:$HOME/.yarn/bin"' >> ~/.zshrc
 
 # nginx
 brew install nginx
