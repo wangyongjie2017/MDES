@@ -3,6 +3,6 @@
 ./develop.sh
 ./cask.sh
 ./tools.sh
-./applications.md
 ./config.md
+./applications.md
 ./final.sh

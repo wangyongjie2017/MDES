@@ -1,13 +1,13 @@
-- config Terminal
+- config dropbox
+- sync ssh config - `chmod 600 ...`
+- config terminal
 - sync .zshrc
-- config Xcode Theme
-- config the font (Consolas or FiraCode) of Xcode, Atom, Terminal
-- chrome Login & Async Config
-- install Sketch plugins
+- config tmux
+- config xcode theme & plugins
+- config the font (Consolas or Fira Code) of xcode, atom, terminal
+- sync vscode config
+- chrome login & async config
 - sync Intellij IDES configs
 - download Android SDK && Genymotion && Sync Android Studio configs
-- config tmux
-- config Dropbox
 - Windows 7 & Windows 10 VirtualBox Install
-- sync ssh config - `chmod 600 ...`
-- sync vscode config
+- config foxmail

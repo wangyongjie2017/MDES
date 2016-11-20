@@ -23,6 +23,7 @@ make install #将安装到/usr/local/bin下
 
 # tmux
 brew install tmux
-git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 brew install reattach-to-user-namespace
-# copy the config file and press `prefix + I` install plugins
+git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
+# copy your sync tmux config file and press `prefix + I` install plugins
+tmux source ~/.tmux.conf

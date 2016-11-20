@@ -48,6 +48,7 @@
 - PhotoShop
 - Adobe DX
 - [Logoist](http://www.syniumsoftware.com/logoist) - 傻瓜式 `Logo` 设计工具
+- [IconKit](https://itunes.apple.com/us/app/iconkit-icon-resizer-for-app/id507135296?mt=12) - 应用图标快速制作工具
 - Sip
 - [PaintCode](https://www.paintcodeapp.com/)
 - [axure](http://www.axure.com/)
