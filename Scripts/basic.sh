@@ -9,7 +9,9 @@ ssh-add -K ~/.ssh/id_rsa_github
 # oh-my-zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 
-# zsh plugins
+# oh-my-zsh plugins
+brew install antigen
+echo "source $(brew --prefix)/share/antigen/antigen.zsh" >> ~/.zshrc
 
 # Homebrew
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
