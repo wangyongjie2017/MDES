@@ -25,20 +25,21 @@
 
 在工程的 `Scripts` 文件夹里，包含了一些 `shell` 脚本，是用命令行的方式来安装必要的开发工具，分为如下几种脚本：
 
-- basic.sh      基础脚本
-- language.sh   编程语言脚本
-- develop.sh    开发工具
-- cask.sh       Homebrew cask 安装程序
-- tools.sh      一些辅助脚本
-- seq.sh        按照顺序列出文件
+- [安装顺序](Scripts/seq.sh)
+- [基础](Scripts/basic.sh)
+- [编程语言](Scripts/language.sh)
+- [开发工具](Scripts/develop.sh)
+- [Cask 安装程序](Scripts/cask.sh)
+- [辅助工具](Scripts/tools.sh)
+
 
 ## Applications
 
-在 `/Scripts/applications.md` 中列出了一些必装应用，供使用者选择。
+在 [applications.md](Scripts/applications.md) 中列出了一些必装应用，供使用者选择。
 
 ## Config
 
-在 `/Scripts/config.md` 中指出了一些常用的配置项。
+在 [config.md](/Scripts/config.md) 中指出了后续需要配置的步骤。
 
 ## Final
 
