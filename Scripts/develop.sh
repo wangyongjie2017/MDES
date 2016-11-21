@@ -57,7 +57,7 @@ brew cask install robomongo
 # Yarn
 brew update
 brew install yarn
-echo 'export PATH="$PATH:$HOME/.yarn/bin"' >> ~/.zshrc
+echo 'export PATH="$PATH:`yarn global bin`"' >> ~/.zshrc
 
 # nginx
 brew install nginx
