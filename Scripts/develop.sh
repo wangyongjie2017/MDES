@@ -24,6 +24,8 @@ rvm use ruby-2.3.0@pods-1.1.1 --default
 rvm gemset list
 pod --version
 
+gem install cocoapods-playgrounds
+
 # Carthage
 brew update
 brew install carthage
