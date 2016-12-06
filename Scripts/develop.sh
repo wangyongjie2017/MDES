@@ -63,3 +63,6 @@ echo 'export PATH="$PATH:`yarn global bin`"' >> ~/.zshrc
 
 # nginx
 brew install nginx
+
+# swift lint
+brew install swiftlint
