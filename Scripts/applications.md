@@ -1,6 +1,7 @@
 ## VersionControl
 - Tower
 - CornerStone
+- [gitkraken](https://www.gitkraken.com/)
 
 ## System
 - iStatMenus
