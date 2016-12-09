@@ -24,3 +24,6 @@ brew cask install intellij-idea webstorm pycharm android-studio #(android sdk)
 
 # genymotion
 brew cask install virtualbox genymotion
+
+# gitbook
+brew cask install gitbook-editor
