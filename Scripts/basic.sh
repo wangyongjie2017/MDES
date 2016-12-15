@@ -34,9 +34,5 @@ git clone git@github.com:tonsky/FiraCode.git
 cd FiraCode/distr/otf
 open FiraCode-*.otf
 
-# Brew Cask
-brew tap caskroom/cask
-brew update
-
 # Sierra Gatekeeper
 sudo spctl --master-disable
