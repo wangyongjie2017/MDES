@@ -1,13 +1,13 @@
 
 # Node
 curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.32.0/install.sh | bash
-# need close window
+# need close window or source ~/.zshrc
 nvm ls-remote
 nvm install v4.6.0
 echo 'alias ng="npm list -g --depth=0 2>/dev/null"' >> ~/.zshrc
 echo 'alias nl="npm list --depth=0 2>/dev/null"' >> ~/.zshrc
 nvm ls
-# need close window
+# need close window or source ~/.zshrc
 ng
 
 # Python
@@ -19,7 +19,7 @@ echo 'alias brew="env PATH=${PATH//$(pyenv root)\/shims:} brew"' >> ~/.zshrc
 pyenv install 3.5.0
 pyenv versions
 
-# need close window
+# need close window or source ~/.zshrc
 
 # Ruby
 brew install gnupg gnupg2
@@ -30,7 +30,7 @@ rvm docs generate-ri
 rvm --default use 2.3.0
 rvm list
 
-# need close window
+# need close window or source ~/.zshrc
 
 # JAVA
 brew cask install java
