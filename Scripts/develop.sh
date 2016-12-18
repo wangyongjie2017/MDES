@@ -59,6 +59,7 @@ brew cask install robomongo
 # Yarn
 brew update
 brew install yarn
+brew uninstall node
 echo 'export PATH="$PATH:`yarn global bin`"' >> ~/.zshrc
 
 # nginx
