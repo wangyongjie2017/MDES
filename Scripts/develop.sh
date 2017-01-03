@@ -67,3 +67,6 @@ brew install nginx
 
 # swift lint
 brew install swiftlint
+
+# CMake
+brew install cmake
