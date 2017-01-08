@@ -1,6 +1,7 @@
 ## VersionControl
 - Tower
 - CornerStone
+- [gitkraken](https://www.gitkraken.com/)
 
 ## System
 - iStatMenus
@@ -27,6 +28,7 @@
 - [Invision](https://www.invisionapp.com/) - 设计流程控制平台
 - [奇妙清单](https://www.wunderlist.com) - 任务管理工具
 - [Trello](https://trello.com/) - 任务管理工具，感觉比奇妙清单好用
+- [WebTorrent](https://webtorrent.io/) - torrent 下载工具，你懂的
 
 ## UI Design
 - [Sketch](https://www.sketchapp.com/) - 码农必备设计工具，支持各种插件，这里给出一些常用的插件：
@@ -64,6 +66,11 @@
 ## IDE
 - [XamarinStudio](https://www.xamarin.com/download) - CrossPlatform C# IDE
 - [DecoIDE]https://www.decosoftware.com/ -  ReactNative IDE
+
+## Markdown
+- [蚂蚁笔记](https://leanote.com/)
+- [MWeb](http://www.mweb.im/)
+- [dynalist](https://dynalist.io)
 
 ## Office
 - Microsoft Office

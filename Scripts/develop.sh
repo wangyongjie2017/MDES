@@ -24,6 +24,8 @@ rvm use ruby-2.3.0@pods-1.1.1 --default
 rvm gemset list
 pod --version
 
+gem install cocoapods-playgrounds
+
 # Carthage
 brew update
 brew install carthage
@@ -57,7 +59,14 @@ brew cask install robomongo
 # Yarn
 brew update
 brew install yarn
-echo 'export PATH="$PATH:$HOME/.yarn/bin"' >> ~/.zshrc
+brew uninstall node
+echo 'export PATH="$PATH:`yarn global bin`"' >> ~/.zshrc
 
 # nginx
 brew install nginx
+
+# swift lint
+brew install swiftlint
+
+# CMake
+brew install cmake

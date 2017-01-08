@@ -1,6 +1,6 @@
 # Autojump
 brew install autojump
-echo '[[ -s $(brew --prefix)/etc/profile.d/autojump.sh ]] && . $(brew --prefix)/etc/profile.d/autojump.sh' >> ~/.zshrc
+echo '[ -f /usr/local/etc/profile.d/autojump.sh ] && . /usr/local/etc/profile.d/autojump.sh' >> ~/.zshrc
 
 # tree
 brew install tree
@@ -24,6 +24,7 @@ make install #将安装到/usr/local/bin下
 # tmux
 brew install tmux
 brew install reattach-to-user-namespace
+gem install tmuxinator
 git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
-# copy your sync tmux config file and press `prefix + I` install plugins
+# copy your sync tmux config file and press `prefix + I` install plugins and copy the .tmuxinator config
 tmux source ~/.tmux.conf
