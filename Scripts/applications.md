@@ -30,6 +30,9 @@
 - [Trello](https://trello.com/) - 任务管理工具，感觉比奇妙清单好用
 - [WebTorrent](https://webtorrent.io/) - torrent 下载工具，你懂的
 
+## UML
+- [Jude](http://astah.net/editions/community)
+
 ## UI Design
 - [Sketch](https://www.sketchapp.com/) - 码农必备设计工具，支持各种插件，这里给出一些常用的插件：
   + [ArtboardZoom](https://github.com/arkkimaagi/artboardzoom)
