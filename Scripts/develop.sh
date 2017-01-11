@@ -5,7 +5,7 @@ docker ps
 
 # Express & Gulp
 npm install -g express-generator gulp-cli typings
-typings install dt~node
+typings install dt~node --global
 
 # Cocoapods
 rvm gemset create pods-1.0.0
