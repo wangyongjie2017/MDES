@@ -4,7 +4,7 @@ docker --version
 docker ps
 
 # Express & Gulp
-npm install -g express-generator gulp-cli
+npm install -g express-generator gulp-cli typings
 
 # Cocoapods
 rvm gemset create pods-1.0.0
