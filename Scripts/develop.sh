@@ -4,7 +4,7 @@ docker --version
 docker ps
 
 # Express & Gulp
-npm install -g express-generator gulp-cli typings
+npm install -g express-generator gulp-cli typings apidoc
 typings install dt~node --global
 
 # Cocoapods
