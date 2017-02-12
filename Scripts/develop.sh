@@ -1,5 +1,5 @@
 # Docker
-brew cask install docker
+brew cask install docker-toolbox
 docker --version
 docker ps
 
