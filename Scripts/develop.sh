@@ -23,6 +23,7 @@ rvm gemset list
 pod --version
 
 gem install cocoapods-playgrounds
+gem install xcpretty
 
 # Carthage
 brew update
