@@ -66,5 +66,9 @@ brew install nginx
 # swift lint
 brew install swiftlint
 
+# oclint
+brew tap oclint/formulae
+brew install oclint
+
 # CMake
 brew install cmake
