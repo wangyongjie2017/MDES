@@ -67,6 +67,7 @@ brew install nginx
 brew install swiftlint
 
 # oclint
+brew install xctool
 brew tap oclint/formulae
 brew install oclint
 
