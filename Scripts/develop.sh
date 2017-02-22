@@ -74,3 +74,6 @@ brew install oclint
 
 # CMake
 brew install cmake
+
+# SonarScanner
+brew install sonar-scanner
