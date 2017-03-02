@@ -49,6 +49,8 @@
   + [Sketch-SF-UI-Font-Fixer](https://github.com/kylehickinson/Sketch-SF-UI-Font-Fixer)
   + [San Francisco Fonts](https://developer.apple.com/fonts/)
   + [sketch-notebook](http://marcosvid.al/sketch-notebook/)
+  + [Auto-Layout](https://github.com/AnimaApp/Auto-Layout)
+  + [Flex-Layout](https://github.com/hrescak/Sketch-Flex-Layout)
 - [RightFont](https://rightfontapp.com/)
 - PhotoShop
 - Adobe DX
