@@ -78,6 +78,7 @@
 - [蚂蚁笔记](https://leanote.com/)
 - [MWeb](http://www.mweb.im/)
 - [dynalist](https://dynalist.io)
+- [deckset](http://www.decksetapp.com/)
 
 ## Office
 - Microsoft Office
