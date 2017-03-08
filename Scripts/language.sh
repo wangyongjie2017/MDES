@@ -42,3 +42,4 @@ visit https://www.microsoft.com/net/core#macos
 # Rust
 curl https://sh.rustup.rs -sSf | sh
 echo 'export PATH="$HOME/.cargo/bin:$PATH"' >> ~/.zshrc
+cargo install racer rustfmt rustsym cargo-edit
