@@ -74,7 +74,7 @@
 ## IDE
 - [XamarinStudio](https://www.xamarin.com/download) - CrossPlatform C# IDE
 - [DecoIDE](https://www.decosoftware.com/) -  ReactNative IDE
-- [indigo-studio](http://www.infragistics.com/products/indigo-studio) - Prototype Tools
+- [IndigoStudio](http://www.infragistics.com/products/indigo-studio) - Prototype Tools
 
 ## Markdown
 - [蚂蚁笔记](https://leanote.com/)
