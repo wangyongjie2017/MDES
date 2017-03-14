@@ -24,7 +24,8 @@ make install #将安装到/usr/local/bin下
 # tmux
 brew install tmux
 brew install reattach-to-user-namespace
-gem install tmuxinator
 git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 # copy your sync tmux config file and press `prefix + I` install plugins and copy the .tmuxinator config
 tmux source ~/.tmux.conf
+gem install tmuxinator
+# clone the tmuxinator completion file to the ~/.bin
