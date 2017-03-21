@@ -49,6 +49,7 @@
   + [Runner](http://sketchrunner.com/)
   + [Auto-Layout](https://animaapp.github.io/Auto-Layout/) - Fix which size of Artboard should be choosen of Mine.
   + [Flex-Layout](https://github.com/hrescak/Sketch-Flex-Layout)
+  + [AEIconizer](https://github.com/tadija/AEIconizer)
   + [ArtboardZoom](https://github.com/arkkimaagi/artboardzoom)
   + [Duplicator](https://github.com/turbobabr/duplicator)
   + [DynamicButton3.5](https://github.com/fuggfuggfugg/sketch-dynamic-button-3.5)
