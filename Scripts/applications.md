@@ -80,14 +80,19 @@
 - [Macaw](http://macaw.co/) - 有悟性的网页设计工具，可惜被 `Invision` 收购了
 - [Xpressive](https://xpressive.org/) - 网页设计可视化工具
 - [blocs](http://blocsapp.com/) - An easy to use visual web design app.
+- [IndigoStudio](http://www.infragistics.com/products/indigo-studio) - Prototype Tools
 
 ## DataBase
 - [NavicatSQL](https://www.navicat.com)
 
 ## IDE
+- Xcode
+- Visual Studio
+- Android Studio
 - [XamarinStudio](https://www.xamarin.com/download) - CrossPlatform C# IDE
+- Qt
+- ReactStudio
 - [DecoIDE](https://www.decosoftware.com/) -  ReactNative IDE
-- [IndigoStudio](http://www.infragistics.com/products/indigo-studio) - Prototype Tools
 
 ## Markdown
 - [蚂蚁笔记](https://leanote.com/)
