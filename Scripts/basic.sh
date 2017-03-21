@@ -36,3 +36,6 @@ open FiraCode-*.otf
 
 # Sierra Gatekeeper
 sudo spctl --master-disable
+
+# Google Font
+curl https://raw.githubusercontent.com/qrpike/Web-Font-Load/master/install.sh | sh
