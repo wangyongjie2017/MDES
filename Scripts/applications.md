@@ -12,6 +12,7 @@
 - QQ
 - 网易云音乐
 - Mindnode
+- [Balsamiq](https://balsamiq.com/)
 - [OmniPlan](https://www.omnigroup.com/omniplan) - Mac 上优秀的项目管理软件
 - [wakatime](https://wakatime.com/) - 量化你的代码
 - [rescuetime](https://www.rescuetime.com/) - 工作习惯养成
