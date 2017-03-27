@@ -30,3 +30,4 @@ brew cask install gitbook-editor
 
 # fastlane
 brew cask install fastlane
+echo 'export PATH="$HOME/.fastlane/bin:$PATH"' >> ~/.zshrc
