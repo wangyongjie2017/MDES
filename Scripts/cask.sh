@@ -27,3 +27,6 @@ brew cask install virtualbox genymotion
 
 # gitbook
 brew cask install gitbook-editor
+
+# fastlane
+brew cask install fastlane
