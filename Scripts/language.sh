@@ -31,6 +31,7 @@ rvm --default use 2.3.0
 rvm list
 
 # need close window or source ~/.zshrc
+# upgrade: rvm get stable
 
 # JAVA
 brew cask install java
