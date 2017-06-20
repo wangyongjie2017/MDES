@@ -102,6 +102,7 @@
 - [MWeb](http://www.mweb.im/)
 - [dynalist](https://dynalist.io)
 - [deckset](http://www.decksetapp.com/)
+- [Bear](http://www.bear-writer.com)
 
 ## Office
 - Microsoft Office
