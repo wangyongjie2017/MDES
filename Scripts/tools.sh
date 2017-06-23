@@ -27,5 +27,5 @@ brew install reattach-to-user-namespace
 git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 # copy your sync tmux config file and press `prefix + I` install plugins and copy the .tmuxinator config
 tmux source ~/.tmux.conf
-gem install tmuxinator
+rvm @global do gem install tmuxinator
 # clone the tmuxinator completion file to the ~/.bin

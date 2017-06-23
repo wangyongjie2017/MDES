@@ -36,6 +36,7 @@
 
 ## UI Design
 - [Sketch](https://www.sketchapp.com/) - 码农必备设计工具，支持各种插件，这里给出一些常用的插件：
+  + [Sketchpacks](https://sketchpacks.com/) - Browse, manage, and auto-update your Sketch plugins from the menu bar
   + [San Francisco Font](https://developer.apple.com/fonts/)
   + [Craft](https://www.invisionapp.com/craft) - 不装后悔
   + [sketchode](http://sketchode.com/)
@@ -72,6 +73,7 @@
 - [PaintCode](https://www.paintcodeapp.com/)
 - [axure](http://www.axure.com/)
 - [modao](https://modao.cc/downloads)
+- [origami](http://origami.design/)
 - [GIBrewery](http://gifbrewery.com/)
 - PhotoShop
 - Adobe DX
@@ -100,6 +102,7 @@
 - [MWeb](http://www.mweb.im/)
 - [dynalist](https://dynalist.io)
 - [deckset](http://www.decksetapp.com/)
+- [Bear](http://www.bear-writer.com)
 
 ## Office
 - Microsoft Office

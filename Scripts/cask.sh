@@ -6,7 +6,7 @@ curl ip.gs
 
 # Atom
 brew cask install atom
-apm install file-icons git-time-machine pigments project-manager emmet atom-beautify language-swift markdown-writer language-rust
+apm install file-icons git-time-machine pigments project-manager emmet atom-beautify language-swift language-rust markdown-writer markdown-pdf markdown-preview-plus
 # 可选安装 apm install wakatime nuclide omnisharp autocomplete-modules atom-ternjs atom-css-comb sync-settings
 apm install nucleus-dark-ui Seti-ui seti-syntax
 cp ~/ROOT/codes/github/MDES/Sync/atom-config.cson ~/.atom/config.cson
@@ -27,3 +27,7 @@ brew cask install virtualbox genymotion
 
 # gitbook
 brew cask install gitbook-editor
+
+# fastlane
+brew cask install fastlane
+echo 'export PATH="$HOME/.fastlane/bin:$PATH"' >> ~/.zshrc
