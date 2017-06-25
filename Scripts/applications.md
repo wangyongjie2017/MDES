@@ -103,6 +103,7 @@
 - [dynalist](https://dynalist.io)
 - [deckset](http://www.decksetapp.com/)
 - [Bear](http://www.bear-writer.com)
+- [Quiver](http://happenapps.com/)
 
 ## Office
 - Microsoft Office
@@ -115,6 +116,7 @@
 - [Surge](http://nssurge.com/)
 - [Shadowsocks](https://github.com/shadowsocks/ShadowsocksX-NG)
 - [Shadowrocket](https://liguangming.com/Shadowrocket)
+- [potatso](https://potatso.com/)
 
 > 注意：
   这里主要是一些收费软件，如果要使用破解版则必须要手动去找安装包。
