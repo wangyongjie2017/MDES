@@ -1,5 +1,5 @@
 - config dropbox
-- sync ssh config - `chmod 600 ...`
+- sync ssh config - `cd ~/.ssh/ && chmod -R 600 *`
 - config terminal
 - sync .zshrc
 - config tmux
