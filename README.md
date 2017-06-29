@@ -23,16 +23,6 @@
 - [开发](Scripts/develop.sh)
 - [终端](Scripts/terminal.sh)
 
-在工程的 `Scripts` 文件夹里，包含了一些 `shell` 脚本，是用命令行的方式来安装必要的开发工具，分为如下几种脚本：
-
-- [安装顺序](Scripts/seq.sh)
-- [基础](Scripts/basic.sh)
-- [编程语言](Scripts/language.sh)
-- [开发工具](Scripts/develop.sh)
-- [Cask 安装程序](Scripts/cask.sh)
-- [辅助工具](Scripts/tools.sh)
-
-
 ## 软件安装
 
 在 [applications.md](Scripts/applications.md) 中列出了一些必装应用，供使用者选择。
