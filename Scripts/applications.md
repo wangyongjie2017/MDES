@@ -118,5 +118,13 @@
 - [Shadowrocket](https://liguangming.com/Shadowrocket)
 - [potatso](https://potatso.com/)
 
+## 破解软件下载网站
+
+- [Xclient.info](xclient.info)
+- [爱情守望者](https://www.waitsun.com/)
+- [MacAppStore.net](http://macappstore.net/)
+- [MacTorrent](http://mac-torrent-download.net/)
+
+
 > 注意：
   这里主要是一些收费软件，如果要使用破解版则必须要手动去找安装包。

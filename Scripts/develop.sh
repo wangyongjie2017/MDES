@@ -1,11 +1,10 @@
-# Docker
+# Docker (Need Config)
 brew cask install docker-toolbox
 docker --version
 docker ps
 
 # Express & Gulp
 npm install -g express-generator gulp-cli typings apidoc
-typings install dt~node --global
 
 # Cocoapods
 
@@ -31,7 +30,7 @@ brew install carthage
 carthage help
 
 # Scrapy
-pyenv shell 3.5.0
+pyenv shell 3.6.1
 pip install Scrapy
 pip install --upgrade pip
 scrapy --help
@@ -75,5 +74,32 @@ brew install oclint
 # CMake
 brew install cmake
 
-# SonarScanner
+# SonarScanner (Need Config)
 brew install sonar-scanner
+
+# Atom (Need Config)
+brew cask install atom
+apm install file-icons git-time-machine pigments project-manager emmet atom-beautify language-swift language-rust markdown-writer markdown-pdf markdown-preview-plus
+# 可选安装 apm install wakatime nuclide omnisharp autocomplete-modules atom-ternjs atom-css-comb sync-settings
+apm install nucleus-dark-ui Seti-ui seti-syntax
+
+# visual studio code
+brew cask install visual-studio-code
+
+code --install-extension robertohuertasm.vscode-icons EditorConfig.EditorConfig robinbentley.sass-indented zhuangtongfa.Material-theme ms-vscode.Theme-TomorrowKit TwentyChung.jsx ms-vscode.csharp TimonVS.ReactSnippetsStandard saviorisdead.RustyCode
+
+# Chrome WWDC Dropbox cheatsheet sourcetree transmit foxmail telegram slack insomnia sitesucker Hyper(Terminal)
+brew cask install google-chrome wwdc dropbox cheatsheet sourcetree telegram slack insomnia sitesucker hyper spark
+
+# Intellij
+brew cask install intellij-idea webstorm pycharm android-studio #(android sdk)
+
+# genymotion
+brew cask install virtualbox genymotion
+
+# gitbook
+brew cask install gitbook-editor
+
+# fastlane
+brew cask install fastlane
+echo 'export PATH="$HOME/.fastlane/bin:$PATH"' >> ~/.zshrc

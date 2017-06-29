@@ -1,3 +1,10 @@
+# oh-my-zsh (Need Config & Close Terminal)
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+
+# oh-my-zsh plugins
+brew install antigen
+echo "source $(brew --prefix)/share/antigen/antigen.zsh" >> ~/.zshrc
+
 # Autojump
 brew install autojump
 echo '[ -f /usr/local/etc/profile.d/autojump.sh ] && . /usr/local/etc/profile.d/autojump.sh' >> ~/.zshrc
@@ -9,7 +16,7 @@ brew install tree
 brew install asciinema
 
 # you-get - youtube-dl
-pyenv shell 3.5.0
+pyenv shell 3.6.1
 pip install you-get
 pip install --upgrade youtube-dl
 
@@ -21,7 +28,7 @@ make clean
 make
 make install #将安装到/usr/local/bin下
 
-# tmux
+# tmux (Need Config)
 brew install tmux
 brew install reattach-to-user-namespace
 git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
