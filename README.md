@@ -27,7 +27,9 @@
 
 ## 软件安装
 
-在 [applications.md](Scripts/applications.md) 中列出了一些必装应用，供使用者选择。
+软件安装部分，主要为你推荐一些比较精致且好用的开发工具和软件，希望你能够喜欢
+
+- [软件安装](Scripts/applications.md)
 
 ## 基本配置
 
