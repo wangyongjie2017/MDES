@@ -9,8 +9,6 @@ brew update
 
 # Shadowsocks
 brew cask install shadowsocksx-ng
-echo "export http_proxy='http://127.0.0.1:1087'" >> ~/.zshrc
-echo "export https_proxy='http://127.0.0.1:1087'" >> ~/.zshrc
 curl ip.gs
 
 # mas
