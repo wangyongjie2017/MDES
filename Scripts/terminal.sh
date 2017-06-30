@@ -24,6 +24,9 @@ pip install --upgrade youtube-dl
 j github
 git clone https://github.com/GangZhuo/BaiduPCS.git
 cd BaiduPCS
+export CPPFLAGS=-I/usr/local/opt/openssl/include/
+export LDFLAGS=-L/usr/local/opt/openssl/lib/
+./configure  --with-openssl=/usr/local/opt/openssl
 make clean
 make
 make install #将安装到/usr/local/bin下
