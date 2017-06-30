@@ -83,10 +83,19 @@ apm install file-icons git-time-machine pigments project-manager emmet atom-beau
 # 可选安装 apm install wakatime nuclide omnisharp autocomplete-modules atom-ternjs atom-css-comb sync-settings
 apm install nucleus-dark-ui Seti-ui seti-syntax
 
-# visual studio code
+# visual studio code (Need Config)
 brew cask install visual-studio-code
 
-code --install-extension robertohuertasm.vscode-icons EditorConfig.EditorConfig robinbentley.sass-indented zhuangtongfa.Material-theme ms-vscode.Theme-TomorrowKit TwentyChung.jsx ms-vscode.csharp TimonVS.ReactSnippetsStandard saviorisdead.RustyCode
+code --list-extensions
+code --install-extension robertohuertasm.vscode-icons
+code --install-extension EditorConfig.EditorConfig
+code --install-extension robinbentley.sass-indented
+code --install-extension Equinusocio.vsc-material-theme
+code --install-extension ms-vscode.Theme-TomorrowKit
+code --install-extension TimonVS.ReactSnippetsStandard
+code --install-extension saviorisdead.RustyCode
+# 可选安装 code --install-extension  ms-vscode.csharp
+code --list-extensions
 
 # Chrome WWDC Dropbox cheatsheet sourcetree transmit foxmail telegram slack insomnia sitesucker Hyper(Terminal)
 brew cask install google-chrome wwdc dropbox cheatsheet sourcetree telegram slack insomnia sitesucker hyper spark
