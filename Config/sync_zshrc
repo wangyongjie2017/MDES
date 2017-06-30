@@ -51,11 +51,13 @@ ZSH_THEME="robbyrussell"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git)
+plugins=(git bundler osx rake ruby mvn nvm npm rbenv rvm gulp github adb ant emacs git-flow go heroku pip xcode autojump)
 
 source $ZSH/oh-my-zsh.sh
 
 # User configuration
+source $HOME/.antigenrc
+source $HOME/.bin/tmuxinator.zsh
 
 # export MANPATH="/usr/local/man:$MANPATH"
 
@@ -68,6 +70,8 @@ source $ZSH/oh-my-zsh.sh
 # else
 #   export EDITOR='mvim'
 # fi
+
+# export EDITOR="atom"
 
 # Compilation flags
 # export ARCHFLAGS="-arch x86_64"
@@ -100,6 +104,8 @@ export PATH="$PATH:$HOME/.rvm/bin"
 
 export PATH="$PATH:$HOME/Library/Android/sdk/platform-tools"
 export PATH="$PATH:$HOME/Library/Android/sdk/tools"
+
+export PATH="$HOME/.fastlane/bin:$PATH"
 
 [ -f /usr/local/etc/profile.d/autojump.sh ] && . /usr/local/etc/profile.d/autojump.sh
 
