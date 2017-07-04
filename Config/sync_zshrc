@@ -60,6 +60,7 @@ source $HOME/.antigenrc
 source $HOME/.bin/tmuxinator.zsh
 
 # export MANPATH="/usr/local/man:$MANPATH"
+export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/sbin:$PATH"
 
 # You may need to manually set your language environment
 # export LANG=en_US.UTF-8
