@@ -67,6 +67,8 @@
 - [Principle](http://principleformac.com/) - Animate Your Ideas, Design Better Apps
 - [Zeplin](https://zeplin.io/)
 - [Flinto](https://www.flinto.com/)
+- [QuartzCode](http://www.quartzcodeapp.com/)
+- [Framer](https://framer.com/)
 - [figma](www.figma.com/)
 - [Logoist](http://www.syniumsoftware.com/logoist) - 傻瓜式 `Logo` 设计工具
 - [IconKit](https://itunes.apple.com/us/app/iconkit-icon-resizer-for-app/id507135296?mt=12) - 应用图标快速制作工具
