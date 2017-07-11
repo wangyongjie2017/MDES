@@ -94,6 +94,7 @@ code --install-extension Equinusocio.vsc-material-theme
 code --install-extension ms-vscode.Theme-TomorrowKit
 code --install-extension TimonVS.ReactSnippetsStandard
 code --install-extension saviorisdead.RustyCode
+code --install-extension ecmel.vscode-html-css
 # 可选安装 code --install-extension  ms-vscode.csharp
 code --list-extensions
 
