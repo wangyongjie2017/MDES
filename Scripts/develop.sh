@@ -95,6 +95,7 @@ code --install-extension ms-vscode.Theme-TomorrowKit
 code --install-extension TimonVS.ReactSnippetsStandard
 code --install-extension saviorisdead.RustyCode
 code --install-extension ecmel.vscode-html-css
+code --install-extension spywhere.mark-jump
 # 可选安装 code --install-extension  ms-vscode.csharp
 code --list-extensions
 
