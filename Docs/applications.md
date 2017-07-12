@@ -106,6 +106,7 @@
 - [deckset](http://www.decksetapp.com/)
 - [Bear](http://www.bear-writer.com)
 - [Quiver](http://happenapps.com/)
+- [Haroopad](http://pad.haroopress.com/user.html)
 
 ## Office
 - Microsoft Office
