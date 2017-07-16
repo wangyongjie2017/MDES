@@ -81,7 +81,7 @@ brew install sonar-scanner
 brew cask install atom
 apm install file-icons git-time-machine pigments project-manager emmet atom-beautify language-swift language-rust markdown-writer markdown-pdf markdown-preview-plus
 # 可选安装 apm install wakatime nuclide omnisharp autocomplete-modules atom-ternjs atom-css-comb sync-settings
-apm install nucleus-dark-ui Seti-ui seti-syntax
+apm install nucleus-dark-ui Seti-ui seti-syntax monokai hydrogen
 
 # visual studio code (Need Config)
 brew cask install visual-studio-code
