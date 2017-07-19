@@ -11,28 +11,33 @@
 - WeiXin
 - QQ
 - 网易云音乐
+
+## Mind
 - Mindnode
 - [Balsamiq](https://balsamiq.com/)
 - [OmniPlan](https://www.omnigroup.com/omniplan) - Mac 上优秀的项目管理软件
+- [Gliffy](https://www.gliffy.com/) - Diagram
+- [Jude](http://astah.net/editions/community)
+- [Edraw Max Pro](https://www.edrawsoft.com)
+
+## Time
 - [wakatime](https://wakatime.com/) - 量化你的代码
 - [rescuetime](https://www.rescuetime.com/) - 工作习惯养成
 - [trackingtime](https://trackingtime.co/) - 时间统计
-- [Charles](https://www.charlesproxy.com/) - Mac 抓包利器
-- [Gliffy](https://www.gliffy.com/) - Diagram
+
+
+## Tools
 - [Bartender](https://www.macbartender.com) - 状态栏工具
 - [Dash](https://kapeli.com/dash) - OSX API documentation sets.
 - [mpv](https://mpv.io) - a free, open source, and cross-platform media player
 - [Transmit](https://panic.com/transmit/)
 - [paw](https://paw.cloud/)
-- [Edraw Max Pro](https://www.edrawsoft.com)
-- [Ulysses](https://ulyssesapp.com/) - 写作神器
-- [Invision](https://www.invisionapp.com/) - 设计流程控制平台
-- [奇妙清单](https://www.wunderlist.com) - 任务管理工具
-- [Trello](https://trello.com/) - 任务管理工具，感觉比奇妙清单好用
+- [Charles](https://www.charlesproxy.com/) - Mac 抓包利器
 - [WebTorrent](https://webtorrent.io/) - torrent 下载工具，你懂的
 
-## UML
-- [Jude](http://astah.net/editions/community)
+## Task
+- [奇妙清单](https://www.wunderlist.com) - 任务管理工具
+- [Trello](https://trello.com/) - 任务管理工具，感觉比奇妙清单好用
 
 ## UI Design
 - [Sketch](https://www.sketchapp.com/) - 码农必备设计工具，支持各种插件，这里给出一些常用的插件：
@@ -63,6 +68,7 @@
   + [Sketch-SF-UI-Font-Fixer](https://github.com/kylehickinson/Sketch-SF-UI-Font-Fixer)
   + [sketch-notebook](http://marcosvid.al/sketch-notebook/)
 
+- [Invision](https://www.invisionapp.com/) - 设计流程控制平台
 - [RightFont](https://rightfontapp.com/)
 - [Principle](http://principleformac.com/) - Animate Your Ideas, Design Better Apps
 - [Zeplin](https://zeplin.io/)
@@ -87,6 +93,10 @@
 - [blocs](http://blocsapp.com/) - An easy to use visual web design app.
 - [IndigoStudio](http://www.infragistics.com/products/indigo-studio) - Prototype Tools
 
+## 3DTool
+
+- [Modo](https://www.foundry.com/products/modo)
+
 ## DataBase
 - [NavicatSQL](https://www.navicat.com)
 
@@ -99,7 +109,7 @@
 - ReactStudio
 - [DecoIDE](https://www.decosoftware.com/) -  ReactNative IDE
 
-## Markdown
+## Writer
 - [蚂蚁笔记](https://leanote.com/)
 - [MWeb](http://www.mweb.im/)
 - [dynalist](https://dynalist.io)
@@ -107,6 +117,7 @@
 - [Bear](http://www.bear-writer.com)
 - [Quiver](http://happenapps.com/)
 - [Haroopad](http://pad.haroopress.com/user.html)
+- [Ulysses](https://ulyssesapp.com/) - 写作神器
 
 ## Office
 - Microsoft Office
@@ -121,7 +132,7 @@
 - [Shadowrocket](https://liguangming.com/Shadowrocket)
 - [potatso](https://potatso.com/)
 
-## 破解软件下载网站
+## 科学软件使用姿势
 
 - [Xclient.info](xclient.info)
 - [爱情守望者](https://www.waitsun.com/)
