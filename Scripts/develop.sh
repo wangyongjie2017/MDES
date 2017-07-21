@@ -96,6 +96,9 @@ code --install-extension TimonVS.ReactSnippetsStandard
 code --install-extension saviorisdead.RustyCode
 code --install-extension ecmel.vscode-html-css
 code --install-extension spywhere.mark-jump
+code --install-extension qinjia.view-in-browser
+code --install-extension deerawan.vscode-faker
+
 # 可选安装 code --install-extension  ms-vscode.csharp
 code --list-extensions
 
