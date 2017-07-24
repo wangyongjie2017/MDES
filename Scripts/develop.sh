@@ -98,6 +98,10 @@ code --install-extension ecmel.vscode-html-css
 code --install-extension spywhere.mark-jump
 code --install-extension qinjia.view-in-browser
 code --install-extension deerawan.vscode-faker
+code --install-extension esbenp.prettier-vscode
+code --install-extension wayou.vscode-todo-highlight
+code --install-extension azemoh.one-monokai
+code --install-extension PKief.material-icon-theme
 
 # 可选安装 code --install-extension  ms-vscode.csharp
 code --list-extensions
