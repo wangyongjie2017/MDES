@@ -41,7 +41,8 @@
 
 ## UI Design
 - [Sketch](https://www.sketchapp.com/) - 码农必备设计工具，支持各种插件，这里给出一些常用的插件：
-  + [Sketchpacks](https://sketchpacks.com/) - Browse, manage, and auto-update your Sketch plugins from the menu bar
+  + [Runner](http://sketchrunner.com/)
+  + [Sketchpacks](https://sketchpacks.com/) - Browse, manage, and auto-update your Sketch plugins from the menu bar - 不建议使用，2017-07-24的时候用起来感觉不太稳定
   + [San Francisco Font](https://developer.apple.com/fonts/)
   + [Craft](https://www.invisionapp.com/craft) - 不装后悔
   + [sketchode](http://sketchode.com/)
@@ -53,7 +54,6 @@
   + [Content Generator](https://github.com/timuric/Content-generator-sketch-plugin)
   + [Sketch Measure](http://utom.design/measure/)
   + [Prism](https://github.com/ment-mx/Prism)
-  + [Runner](http://sketchrunner.com/)
   + [Auto-Layout](https://animaapp.github.io/Auto-Layout/) - Fix which size of Artboard should be choosen of Mine.
   + [Flex-Layout](https://github.com/hrescak/Sketch-Flex-Layout)
   + [AEIconizer](https://github.com/tadija/AEIconizer)
@@ -68,6 +68,8 @@
   + [Sketch-SF-UI-Font-Fixer](https://github.com/kylehickinson/Sketch-SF-UI-Font-Fixer)
   + [sketch-notebook](http://marcosvid.al/sketch-notebook/)
   + [Comma](https://github.com/margusholland/Comma)
+  + [CSSSketch](https://github.com/JohnCoates/CSSketch)
+  + [WeSketch](https://github.com/weixin/WeSketch)
 
 - [Principle](http://principleformac.com/) - Animate Your Ideas, Design Better Apps
 - [Zeplin](https://zeplin.io/)
