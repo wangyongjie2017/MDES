@@ -121,3 +121,7 @@ brew cask install gitbook-editor
 # fastlane
 brew cask install fastlane
 echo 'export PATH="$HOME/.fastlane/bin:$PATH"' >> ~/.zshrc
+
+# sketch for android tools
+brew install imagemagick
+npm install -g svgo svg2vectordrawable
