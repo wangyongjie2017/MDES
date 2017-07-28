@@ -132,3 +132,16 @@ function on() {
 function off() {
   unset {http,https,ftp}_proxy
 }
+
+function hiddenOn() { defaults write com.apple.Finder AppleShowAllFiles YES ; }
+function hiddenOff() { defaults write com.apple.Finder AppleShowAllFiles NO ; }
+
+function fxrun { ~/ROOT/codes/company/wd/Android/FxxDebugger/fxx_run.sh }
+function fxlog { ~/ROOT/codes/company/wd/Android/FxxDebugger/fxx_log.sh }
+
+function editorrun { ~/ROOT/codes/gitlab/Projects/WDAndroidEditor/Scripts/editor_run.sh }
+function editorlog { ~/ROOT/codes/gitlab/Projects/WDAndroidEditor/Scripts/editor_log.sh }
+
+#THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
+export SDKMAN_DIR="/Users/coderafi/.sdkman"
+[[ -s "/Users/coderafi/.sdkman/bin/sdkman-init.sh" ]] && source "/Users/coderafi/.sdkman/bin/sdkman-init.sh"
