@@ -72,6 +72,7 @@
   + [WeSketch](https://github.com/weixin/WeSketch)
   + [Asset-Organizer](http://checkyourvector.com/Asset-Organizer/)
   + [svgo-compressor](https://github.com/BohemianCoding/svgo-compressor)
+  + [sketch-material](https://github.com/websiddu/sketch-material)
 
 - [Principle](http://principleformac.com/) - Animate Your Ideas, Design Better Apps
 - [Zeplin](https://zeplin.io/)
