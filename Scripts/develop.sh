@@ -127,5 +127,7 @@ curl -s "https://get.sdkman.io" | bash
 echo 'export PATH="$PATH:$HOME/.sdkman/bin/sdkman-init.sh"' >> ~/.zshrc
 sdk install gradle
 
+brew install pidcat
+
 brew install imagemagick
 npm install -g svgo svg2vectordrawable
