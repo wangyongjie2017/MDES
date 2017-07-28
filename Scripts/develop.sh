@@ -123,5 +123,9 @@ brew cask install fastlane
 echo 'export PATH="$HOME/.fastlane/bin:$PATH"' >> ~/.zshrc
 
 # sketch for android tools
+curl -s "https://get.sdkman.io" | bash
+echo 'export PATH="$PATH:$HOME/.sdkman/bin/sdkman-init.sh"' >> ~/.zshrc
+sdk install gradle
+
 brew install imagemagick
 npm install -g svgo svg2vectordrawable
