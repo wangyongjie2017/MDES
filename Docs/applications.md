@@ -43,7 +43,6 @@
 - [Sketch](https://www.sketchapp.com/) - 码农必备设计工具，支持各种插件，这里给出一些常用的插件：
   + [Runner](http://sketchrunner.com/)
   + [Sketchpacks](https://sketchpacks.com/) - Browse, manage, and auto-update your Sketch plugins from the menu bar - 不建议使用，2017-07-24的时候用起来感觉不太稳定
-  + [San Francisco Font](https://developer.apple.com/fonts/)
   + [Craft](https://www.invisionapp.com/craft) - 不装后悔
   + [sketchode](http://sketchode.com/)
   + [Clipboard-Fill](https://github.com/ScottSavarie/Clipboard-Fill)
@@ -99,6 +98,13 @@
 - [Xpressive](https://xpressive.org/) - 网页设计可视化工具
 - [blocs](http://blocsapp.com/) - An easy to use visual web design app.
 - [IndigoStudio](http://www.infragistics.com/products/indigo-studio) - Prototype Tools
+
+## Font&Icon(Design)
+- [fontforge](http://fontforge.github.io/) - 字体设计软件
+- [San Francisco Font](https://developer.apple.com/fonts/)
+- [Fontawesome](http://fontawesome.io/)
+- [MaterialIcons](http://google.github.io/material-design-icons/)
+- [open-iconic](https://useiconic.com/open)
 
 ## 3DTool
 
