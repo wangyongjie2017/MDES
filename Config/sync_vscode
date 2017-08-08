@@ -42,5 +42,9 @@
     "extensions.autoUpdate": true,
 
     // The proxy setting to use. If not set will be taken from the http_proxy and https_proxy environment variables
-    "http.proxy": "http://127.0.0.1:1087"
+    "http.proxy": "http://127.0.0.1:1087",
+
+    "files.associations": {
+        "*.wpy": "vue"
+    }
 }
