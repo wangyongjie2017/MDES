@@ -44,6 +44,12 @@
     // The proxy setting to use. If not set will be taken from the http_proxy and https_proxy environment variables
     "http.proxy": "http://127.0.0.1:1087",
 
+    // Define profile for specified syntax or use your own profile with specific rules.
+    "emmet.syntaxProfiles": {
+        "vue-html": "html",
+        "vue": "html"
+    },
+
     "files.associations": {
         "*.wpy": "vue"
     }
