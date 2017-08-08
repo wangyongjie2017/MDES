@@ -102,6 +102,7 @@ code --install-extension esbenp.prettier-vscode
 code --install-extension wayou.vscode-todo-highlight
 code --install-extension azemoh.one-monokai
 code --install-extension PKief.material-icon-theme
+code --install-extension octref.vetur
 
 # 可选安装 code --install-extension  ms-vscode.csharp
 code --list-extensions
