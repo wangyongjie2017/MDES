@@ -4,13 +4,14 @@ docker --version
 docker ps
 
 # Express & Gulp
-npm install -g express-generator
-npm install -g gulp-cli
-npm install -g apidoc
-npm install -g typescript
-npm install -g wepy-cli
-npm install -g wept
-npm install -g typings
+npm i express-generator -g
+npm i gulp-cli -g
+npm i apidoc -g
+npm i typescript -g
+npm i eslint -g
+npm i wepy-cli -g
+npm i wept -g
+npm i typings -g
 
 # Cocoapods
 rvm gemset create pods-1.2.0
