@@ -1,6 +1,3 @@
-# oh-my-zsh (Need Config & Close Terminal)
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
-
 # oh-my-zsh plugins
 brew install antigen
 echo "source $(brew --prefix)/share/antigen/antigen.zsh" >> ~/.zshrc
