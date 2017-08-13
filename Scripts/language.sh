@@ -16,6 +16,7 @@ brew install pyenv
 # echo 'export PYENV_ROOT=/usr/local/var/pyenv' >> ~/.zshrc
 echo 'if which pyenv > /dev/null; then eval "$(pyenv init -)"; fi' >> ~/.zshrc
 echo 'alias brew="env PATH=${PATH//$(pyenv root)\/shims:} brew"' >> ~/.zshrc
+pyenv install --list
 pyenv install 3.6.1
 pyenv versions
 # need close window or source ~/.zshrc
@@ -23,13 +24,11 @@ pyenv versions
 # Ruby (Close Terminal)
 brew install gnupg gnupg2
 gpg --keyserver hkp://keys.gnupg.net --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3
-\curl -sSL https://get.rvm.io | bash -s stable
-rvm get head
-rvm reload
-rvm get stable
+\curl -sSL https://get.rvm.io | bash
+rvm list known
 rvm install 2.4.1
 rvm docs generate-ri
-rvm --default use 2.3.0
+rvm --default use 2.4.1
 rvm list
 # need close window or source ~/.zshrc
 

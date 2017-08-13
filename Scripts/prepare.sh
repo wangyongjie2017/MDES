@@ -11,8 +11,5 @@ brew update
 brew install mas
 mas list
 
-# Xcode Command line tools
-xcode-select --install
-
 # Sierra Gatekeeper
 sudo spctl --master-disable
