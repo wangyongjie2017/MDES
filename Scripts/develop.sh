@@ -17,15 +17,11 @@ npm i wepy-cli -g
 npm i wept -g
 
 # Cocoapods
-rvm gemset create pods-1.2.0
-rvm gemset use pods-1.2.0
-gem install cocoapods -v 1.2.0
+rvm gemset create pods-1.3.1
+rvm gemset use pods-1.3.1
+gem install cocoapods -v 1.3.1
 
-rvm gemset create pods-1.2.1
-rvm gemset use pods-1.2.1
-gem install cocoapods
-
-rvm use ruby-2.3.0@pods-1.2.1 --default
+rvm use ruby-2.4.1@pods-1.3.1 --default
 
 rvm gemset list
 pod --version
