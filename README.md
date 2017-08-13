@@ -14,7 +14,7 @@
 准备阶段要做的是安装软件管理工具并且为安装其他软件做准备.
 
 - [准备](Scripts/prepare.sh)
-- [科学上网](Scripts/fanqiang.sh)
+- [科学上网](Scripts/wall.sh)
 
 ### 脚本安装
 
