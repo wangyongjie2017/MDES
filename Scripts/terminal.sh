@@ -26,7 +26,8 @@ export LDFLAGS=-L/usr/local/opt/openssl/lib/
 ./configure  --with-openssl=/usr/local/opt/openssl
 make clean
 make
-make install #将安装到/usr/local/bin下
+ #将安装到/usr/local/bin下
+make install
 
 # tmux (Need Config)
 brew install tmux
