@@ -38,6 +38,7 @@
 ## Task
 - [奇妙清单](https://www.wunderlist.com) - 任务管理工具
 - [Trello](https://trello.com/) - 任务管理工具，感觉比奇妙清单好用
+- [notion](https://www.notion.so/) - notes, wikis, and tasks.
 
 ## UI Design
 - [Sketch](https://www.sketchapp.com/) - 码农必备设计工具，支持各种插件，这里给出一些常用的插件：
