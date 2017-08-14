@@ -1,6 +1,3 @@
-# oh-my-zsh (Need Config & Close Terminal)
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
-
 # oh-my-zsh plugins
 brew install antigen
 echo "source $(brew --prefix)/share/antigen/antigen.zsh" >> ~/.zshrc
@@ -29,7 +26,8 @@ export LDFLAGS=-L/usr/local/opt/openssl/lib/
 ./configure  --with-openssl=/usr/local/opt/openssl
 make clean
 make
-make install #将安装到/usr/local/bin下
+ #将安装到/usr/local/bin下
+make install
 
 # tmux (Need Config)
 brew install tmux

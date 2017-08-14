@@ -1,0 +1,36 @@
+"*":
+  core:
+    openEmptyEditorOnStart: false
+    telemetryConsent: "limited"
+    themes: [
+      "seti-ui"
+      "seti-syntax"
+    ]
+  editor:
+    fontFamily: "Consolas"
+    preferredLineLength: 160
+    showIndentGuide: true
+    softTabs: false
+    softWrap: true
+    softWrapAtPreferredLineLength: true
+  "exception-reporting":
+    userId: "42a28759-70bf-6e0d-7a9b-4a9b6f8c8896"
+  "markdown-preview":
+    useGitHubStyle: true
+    whitespace:
+      removeTrailingWhitespace: false
+  "markdown-writer": {}
+  "seti-ui":
+    compactView: true
+    disableAnimations: true
+    font: "Default Atom Font"
+  "split-diff":
+    diffWords: true
+    ignoreWhitespace: true
+    leftEditorColor: "red"
+    rightEditorColor: "green"
+    syncHorizontalScroll: true
+  "tree-view":
+    hideVcsIgnoredFiles: true
+  welcome:
+    showOnStartup: false
