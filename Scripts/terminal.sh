@@ -11,6 +11,7 @@ brew install tree
 
 # thefuck
 brew install thefuck
+echo 'eval $(thefuck --alias)' >> ~/.zshrc
 
 # asciinema
 brew install asciinema

@@ -72,7 +72,7 @@ export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/sbin:$PATH"
 #   export EDITOR='mvim'
 # fi
 
-# export EDITOR="atom"
+export EDITOR="atom"
 
 # Compilation flags
 # export ARCHFLAGS="-arch x86_64"
@@ -108,6 +108,8 @@ export PATH="$PATH:$HOME/Library/Android/sdk/tools"
 
 export PATH="$HOME/.fastlane/bin:$PATH"
 
+eval $(thefuck --alias)
+
 [ -f /usr/local/etc/profile.d/autojump.sh ] && . /usr/local/etc/profile.d/autojump.sh
 
 # open a new tab on Terminal with the current working dir
@@ -126,7 +128,8 @@ function closetab() {
 }
 
 function on() {
-  export {http,https,ftp}_proxy='http://127.0.0.1:1087'
+  export {http,https,ftp}_proxy='http://127.0.0.1:1087' shadowsocks
+	# export {http,https,ftp}_proxy='http://127.0.0.1:8001'   # v2ray
 }
 
 function off() {
@@ -138,6 +141,7 @@ function hiddenOff() { defaults write com.apple.Finder AppleShowAllFiles NO ; }
 
 function fxrun { ~/ROOT/codes/company/wd/Android/FxxDebugger/fxx_run.sh }
 function fxlog { ~/ROOT/codes/company/wd/Android/FxxDebugger/fxx_log.sh }
+function fxlog2file { ~/ROOT/codes/company/wd/Android/FxxDebugger/fxx_log_to_file.sh }
 
 function editorrun { ~/ROOT/codes/gitlab/Projects/WDAndroidEditor/Scripts/editor_run.sh }
 function editorlog { ~/ROOT/codes/gitlab/Projects/WDAndroidEditor/Scripts/editor_log.sh }
