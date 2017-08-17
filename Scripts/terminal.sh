@@ -9,6 +9,9 @@ echo '[ -f /usr/local/etc/profile.d/autojump.sh ] && . /usr/local/etc/profile.d/
 # tree
 brew install tree
 
+# thefuck
+brew install thefuck
+
 # asciinema
 brew install asciinema
 
