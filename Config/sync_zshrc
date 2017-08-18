@@ -108,6 +108,8 @@ export PATH="$PATH:$HOME/Library/Android/sdk/tools"
 
 export PATH="$HOME/.fastlane/bin:$PATH"
 
+export PATH="/usr/local/opt/llvm/bin:$PATH"
+
 eval $(thefuck --alias)
 
 [ -f /usr/local/etc/profile.d/autojump.sh ] && . /usr/local/etc/profile.d/autojump.sh
