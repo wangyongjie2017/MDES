@@ -12,7 +12,7 @@
     "editor.minimap.enabled": false,
 
     // Controls if lines should wrap. The lines will wrap at min(editor.wrappingColumn, viewportWidthInColumns).
-    "editor.wordWrap": true,
+    "editor.wordWrap": "on",
 
     // Controls if the editor should automatically format the line after typing
     "editor.formatOnType": true,
