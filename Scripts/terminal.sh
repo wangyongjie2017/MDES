@@ -14,12 +14,13 @@ brew install thefuck
 echo 'eval $(thefuck --alias)' >> ~/.zshrc
 
 # asciinema
-brew install asciinema
+pyenv shell 3.6.2
+pip3 install asciinema
 
 # you-get - youtube-dl
-pyenv shell 3.6.1
-pip install you-get
-pip install --upgrade youtube-dl
+pyenv shell 3.6.2
+pip3 install --upgrade you-get
+pip3 install --upgrade youtube-dl
 
 # baidu pcs
 j github

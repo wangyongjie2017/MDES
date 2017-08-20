@@ -17,7 +17,7 @@ brew install pyenv
 echo 'if which pyenv > /dev/null; then eval "$(pyenv init -)"; fi' >> ~/.zshrc
 echo 'alias brew="env PATH=${PATH//$(pyenv root)\/shims:} brew"' >> ~/.zshrc
 pyenv install --list
-pyenv install 3.6.1
+pyenv install 3.6.2
 pyenv versions
 # need close window or source ~/.zshrc
 

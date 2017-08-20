@@ -35,7 +35,7 @@ brew install carthage
 carthage help
 
 # Scrapy
-pyenv shell 3.6.1
+pyenv shell 3.6.2
 pip install Scrapy
 pip install --upgrade pip
 scrapy --help
