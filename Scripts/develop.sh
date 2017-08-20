@@ -1,6 +1,7 @@
 # Xcode
 mas serach Xcode
 mas install `497799835`
+# config command line tools
 
 # Docker (Need Config)
 brew cask install docker # brew cask install docker-toolbox (toolbox vs docker)
