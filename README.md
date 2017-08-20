@@ -38,6 +38,7 @@
 
 - [ ] 基本配置文件备份
 - [ ] 配置文件同步
+- [ ] 配置文件采用 [dotfiles](https://github.com/thoughtbot/dotfiles) 格式
 - [ ] 开发部分按照技术栈来区分
 
 ### 备注
