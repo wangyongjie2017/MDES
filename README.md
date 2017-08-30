@@ -29,8 +29,9 @@
 
 软件安装阶段主要是推荐了一些比较精致且好用的工具和软件.
 
-- [软件](Scripts/macapp.sh)
-- [推荐清单](Docs/applications.md)
+- [软件脚本](Scripts/macapp.sh)
+- [软件清单](Docs/apps.md)
+- [设计工具](Docs/design.md)
 
 ### 配置同步
 

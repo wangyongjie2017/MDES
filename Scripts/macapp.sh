@@ -9,3 +9,6 @@ mas install 1091189122
 
 mas search wechat
 mas install 836500024
+
+mas search "The Unarchiver"
+mas install 425424353
