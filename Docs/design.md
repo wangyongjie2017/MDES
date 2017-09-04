@@ -50,7 +50,7 @@
 - [PaintCode](https://www.paintcodeapp.com/)
 - [axure](http://www.axure.com/)
 - [modao](https://modao.cc/downloads)
-- [origami](http://origami.design/)
+- [Origami](https://origami.design/)
 - [GIBrewery](http://gifbrewery.com/)
 - PhotoShop
 - Adobe DX
