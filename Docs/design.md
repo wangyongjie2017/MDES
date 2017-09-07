@@ -14,7 +14,8 @@
   + [Content Generator](https://github.com/timuric/Content-generator-sketch-plugin)
   + [Sketch Measure](http://utom.design/measure/)
   + [Prism](https://github.com/ment-mx/Prism)
-  + [Auto-Layout](https://animaapp.github.io/Auto-Layout/) - Fix which size of Artboard should be choosen of Mine.
+  + [Auto-Layout](https://animaapp.github.io/) - Responsive design, for designers.
+  + [Launchpad](https://animaapp.github.io/) - Launchpad is a Sketch Plugin for creating and publishing websites.
   + [Flex-Layout](https://github.com/hrescak/Sketch-Flex-Layout)
   + [AEIconizer](https://github.com/tadija/AEIconizer)
   + [ArtboardZoom](https://github.com/arkkimaagi/artboardzoom)
@@ -35,6 +36,7 @@
   + [sketch-material](https://github.com/websiddu/sketch-material)
   + [PaintCode-Sketch](https://www.paintcodeapp.com/sketch)
   + [brand.ai](https://brand.ai/sketch)
+  + [kactus](https://kactus.io/)
   + [zeroheight](https://www.zeroheight.com/)
 
 - [Principle](http://principleformac.com/) - Animate Your Ideas, Design Better Apps
