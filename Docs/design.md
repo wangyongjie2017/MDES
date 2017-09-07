@@ -38,7 +38,7 @@
   + [zeroheight](https://www.zeroheight.com/)
 
 - [Principle](http://principleformac.com/) - Animate Your Ideas, Design Better Apps
-- [Zeplin](https://zeplin.io/)
+- [Zeplin](https://zeplin.io/) - Design hand-off has never been easier. Generate styleguides and resources, automatically.
 - [Flinto](https://www.flinto.com/)
 - [Framer](https://framer.com/)
 - [Marvel](https://marvelapp.com/)
