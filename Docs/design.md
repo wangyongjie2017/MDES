@@ -34,6 +34,8 @@
   + [svgo-compressor](https://github.com/BohemianCoding/svgo-compressor)
   + [sketch-material](https://github.com/websiddu/sketch-material)
   + [PaintCode-Sketch](https://www.paintcodeapp.com/sketch)
+  + [brand.ai](https://brand.ai/sketch)
+  + [zeroheight](https://www.zeroheight.com/)
 
 - [Principle](http://principleformac.com/) - Animate Your Ideas, Design Better Apps
 - [Zeplin](https://zeplin.io/)
@@ -56,6 +58,7 @@
 - Adobe DX
 - Sip
 - [marklyapp](https://marklyapp.com/)
+- [pixelmator](http://www.pixelmator.com/pro/) - The world’s most innovative image editing app
 
 ## Web Design
 - [Macaw](http://macaw.co/) - 有悟性的网页设计工具，可惜被 `Invision` 收购了
@@ -79,3 +82,4 @@
 - [qwikly](https://www.getqwikly.com/#features)
 - [supernova](https://supernova.studio/)
 - [avocode](https://avocode.com/mobile)
+- [protoship](https://protoship.io/tools.html)
