@@ -25,7 +25,6 @@
 - [rescuetime](https://www.rescuetime.com/) - 工作习惯养成
 - [trackingtime](https://trackingtime.co/) - 时间统计
 
-
 ## Tools
 - [Bartender](https://www.macbartender.com) - 状态栏工具
 - [Dash](https://kapeli.com/dash) - OSX API documentation sets.
@@ -49,7 +48,7 @@
 - Android Studio
 - [XamarinStudio](https://www.xamarin.com/download) - CrossPlatform C# IDE
 - Qt
-- ReactStudio
+- [ReactStudio](https://neonto.com/reactstudio)
 - [DecoIDE](https://www.decosoftware.com/) -  ReactNative IDE
 
 ## Writer
