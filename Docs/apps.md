@@ -2,6 +2,7 @@
 - Tower
 - CornerStone
 - [gitkraken](https://www.gitkraken.com/)
+- [GitX](http://gitx.frim.nl/index.html)
 
 ## System
 - iStatMenus
@@ -60,6 +61,7 @@
 - [Quiver](http://happenapps.com/)
 - [Haroopad](http://pad.haroopress.com/user.html)
 - [Ulysses](https://ulyssesapp.com/) - 写作神器
+- [iAWriter](https://ia.net/writer/)
 
 ## Office
 - Microsoft Office
