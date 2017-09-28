@@ -16,7 +16,7 @@
 ## Mind
 - Mindnode
 - [Balsamiq](https://balsamiq.com/)
-- [OmniPlan](https://www.omnigroup.com/omniplan) - Mac 上优秀的项目管理软件
+- [OmniGroup](https://www.omnigroup.com/omniplan/) - 设计思路工具
 - [Gliffy](https://www.gliffy.com/) - Diagram
 - [Jude](http://astah.net/editions/community)
 - [Edraw Max Pro](https://www.edrawsoft.com)
