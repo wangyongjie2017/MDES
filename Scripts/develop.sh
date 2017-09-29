@@ -117,7 +117,7 @@ code --list-extensions
 brew cask install google-chrome wwdc dropbox cheatsheet sourcetree telegram slack insomnia sitesucker hyper spark
 
 # Intellij
-brew cask install intellij-idea webstorm pycharm android-studio appcode #(android sdk)
+brew cask install intellij-idea webstorm pycharm rubymine android-studio appcode #(android sdk)
 
 # genymotion
 brew cask install virtualbox genymotion
