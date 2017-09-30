@@ -17,6 +17,7 @@ npm i eslint -g
 npm i wepy-cli -g
 npm i wept -g
 npm i gtop -g
+npm i nodemon -g
 
 # Cocoapods
 rvm gemset create pods-1.3.1
