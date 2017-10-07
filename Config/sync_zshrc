@@ -130,10 +130,10 @@ function closetab() {
 }
 
 function on() {
-	# shadowsocks
-  export {http,https,ftp}_proxy='socks5://127.0.0.1:1086'
-	# v2ray
-	# export {http,https,ftp}_proxy='http://127.0.0.1:8001'
+	# socks5
+  # export {http,https,ftp}_proxy='socks5://127.0.0.1:1086'
+	# http
+	export {http,https,ftp}_proxy='http://127.0.0.1:1087'
 }
 
 function off() {

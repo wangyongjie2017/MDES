@@ -1,4 +1,4 @@
-# oh-my-zsh plugins
+# oh-my-zsh plugins (need config zshrc and antigenrc)
 brew install antigen
 echo "source $(brew --prefix)/share/antigen/antigen.zsh" >> ~/.zshrc
 
@@ -40,8 +40,8 @@ brew install tmux
 brew install reattach-to-user-namespace
 git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 tmux
-# Press`prefix + I` install plugins
 tmux source ~/.tmux.conf
+# Press`prefix + I` install plugins
 rvm @global do gem install tmuxinator
 git clone git@github.com:tmuxinator/tmuxinator.git
 # copy completeion folder's tmuxinator.zsh to ~/.bin
