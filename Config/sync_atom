@@ -3,8 +3,8 @@
     openEmptyEditorOnStart: false
     telemetryConsent: "limited"
     themes: [
-      "seti-ui"
-      "seti-syntax"
+      "nucleus-dark-ui"
+      "monokai"
     ]
   editor:
     fontFamily: "Consolas"
