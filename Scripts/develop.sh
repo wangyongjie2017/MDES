@@ -24,7 +24,7 @@ rvm gemset create pods-1.3.1
 rvm gemset use pods-1.3.1
 gem install cocoapods -v 1.3.1
 
-rvm use ruby-2.4.1@pods-1.3.1 --default
+# rvm use ruby-2.4.1@pods-1.3.1 --default
 
 rvm gemset list
 pod --version
