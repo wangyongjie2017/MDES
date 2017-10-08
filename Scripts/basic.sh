@@ -17,4 +17,8 @@ git clone git@github.com:tonsky/FiraCode.git
 cd FiraCode/distr/otf
 open FiraCode-*.otf
 
+git clone git@github.com:nathco/Office-Code-Pro.git
+cd Office-Code-Pro-master/Fonts/Office Code Pro/OTF
+open OfficeCodePro-*.otf
+
 curl https://raw.githubusercontent.com/qrpike/Web-Font-Load/master/install.sh | sh
