@@ -34,6 +34,7 @@ rvm install 2.4.1 --verbose
 rvm docs generate-ri
 rvm --default use 2.4.1
 rvm list
+gem install bundler
 # need close window or source ~/.zshrc
 
 # Java
