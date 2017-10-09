@@ -114,8 +114,8 @@ code --install-extension hollowtree.vue-snippets
 # 可选安装 code --install-extension  ms-vscode.csharp
 code --list-extensions
 
-# Chrome WWDC Dropbox cheatsheet sourcetree transmit foxmail telegram slack insomnia sitesucker Hyper(Terminal)
-brew cask install google-chrome wwdc dropbox cheatsheet sourcetree telegram slack insomnia sitesucker hyper spark
+# Chrome WWDC Dropbox cheatsheet sourcetree transmit foxmail telegram slack insomnia sitesucker Hyper(Terminal) gitup
+brew cask install google-chrome wwdc dropbox cheatsheet sourcetree telegram slack insomnia gitup hyper spark
 
 # Intellij
 brew cask install intellij-idea webstorm pycharm rubymine android-studio appcode #(android sdk)
