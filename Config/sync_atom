@@ -31,6 +31,8 @@
     rightEditorColor: "green"
     syncHorizontalScroll: true
   "tree-view":
-    hideVcsIgnoredFiles: true
+    hideVcsIgnoredFiles: false
   welcome:
     showOnStartup: false
+  whitespace:
+    ensureSingleTrailingNewline: false
