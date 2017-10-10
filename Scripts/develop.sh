@@ -8,7 +8,7 @@ brew cask install docker # brew cask install docker-toolbox (toolbox vs docker)
 docker --version
 docker ps
 
-# Express & Gulp
+# npm
 npm i express-generator -g
 npm i gulp-cli -g
 npm i apidoc -g
@@ -19,18 +19,23 @@ npm i wept -g
 npm i gtop -g
 npm i nodemon -g
 
-# Cocoapods
+# gem
+gem install bundler
+gem install rubocop
+gem install xcpretty
+gem install cocoapods
+pod --version
+
+# Cocoapods(gemset)
 rvm gemset create pods-1.3.1
 rvm gemset use pods-1.3.1
 gem install cocoapods -v 1.3.1
 
-# rvm use ruby-2.4.1@pods-1.3.1 --default
-
 rvm gemset list
 pod --version
 
-gem install cocoapods-playgrounds
-rvm @global do gem install xcpretty
+# rvm use ruby-2.4.1@pods-1.3.1 --default
+# gem install cocoapods-playgrounds
 
 # Carthage
 brew update
