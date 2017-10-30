@@ -18,6 +18,7 @@ npm i wepy-cli -g
 npm i wept -g
 npm i gtop -g
 npm i nodemon -g
+npm i json-server -g
 
 # gem
 gem install bundler
