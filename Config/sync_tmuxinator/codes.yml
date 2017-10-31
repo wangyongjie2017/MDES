@@ -49,5 +49,7 @@ windows:
       root: ~/ROOT/codes/company/WD/iOS
   - WDAndroid:
       root: ~/ROOT/codes/company/WD/Android
+  - WDFE:
+      root: ~/ROOT/codes/company/WD/FE
   - Github:
       root: ~/ROOT/codes/github

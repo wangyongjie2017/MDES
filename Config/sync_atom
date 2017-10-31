@@ -36,3 +36,7 @@
     showOnStartup: false
   whitespace:
     ensureSingleTrailingNewline: false
+  customFileTypes:
+      "text.html.vue": [
+        "wpy"
+      ]

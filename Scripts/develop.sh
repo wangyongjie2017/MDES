@@ -18,6 +18,7 @@ npm i wepy-cli -g
 npm i wept -g
 npm i gtop -g
 npm i nodemon -g
+npm i json-server -g
 
 # gem
 gem install bundler
@@ -90,7 +91,7 @@ brew install sonar-scanner
 
 # Atom (Need Config)
 brew cask install atom
-apm install file-icons git-time-machine pigments project-manager emmet atom-beautify language-swift language-rust markdown-writer markdown-pdf markdown-preview-plus symbols-tree-view
+apm install file-icons git-time-machine pigments project-manager emmet atom-beautify language-swift language-rust markdown-writer markdown-pdf markdown-preview-plus symbols-tree-view language-vue
 # 可选安装 apm install wakatime nuclide omnisharp autocomplete-modules atom-ternjs atom-css-comb sync-settings
 apm install nucleus-dark-ui Seti-ui seti-syntax monokai hydrogen
 
@@ -98,11 +99,9 @@ apm install nucleus-dark-ui Seti-ui seti-syntax monokai hydrogen
 brew cask install visual-studio-code
 
 code --list-extensions
-code --install-extension robertohuertasm.vscode-icons
+
 code --install-extension EditorConfig.EditorConfig
 code --install-extension robinbentley.sass-indented
-code --install-extension Equinusocio.vsc-material-theme
-code --install-extension ms-vscode.Theme-TomorrowKit
 code --install-extension TimonVS.ReactSnippetsStandard
 code --install-extension saviorisdead.RustyCode
 code --install-extension ecmel.vscode-html-css
@@ -111,11 +110,14 @@ code --install-extension qinjia.view-in-browser
 code --install-extension deerawan.vscode-faker
 code --install-extension esbenp.prettier-vscode
 code --install-extension wayou.vscode-todo-highlight
-code --install-extension azemoh.one-monokai
-code --install-extension PKief.material-icon-theme
 code --install-extension octref.vetur
 code --install-extension hollowtree.vue-snippets
-
+code --install-extension Equinusocio.vsc-material-theme
+code --install-extension ms-vscode.Theme-TomorrowKit
+code --install-extension robertohuertasm.vscode-icons
+code --install-extension PKief.material-icon-theme
+code --install-extension azemoh.one-monokai
+code --install-extension arcticicestudio.nord-visual-studio-code
 # 可选安装 code --install-extension  ms-vscode.csharp
 code --list-extensions
 

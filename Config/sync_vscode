@@ -1,6 +1,6 @@
 // Place your settings in this file to overwrite the default settings
 {
-    "editor.fontFamily": "Consolas",
+    "editor.fontFamily": "Source Code Pro",
 
     // Controls the font size in pixels.
     "editor.fontSize": 16,
@@ -17,8 +17,13 @@
     // Controls if the editor should automatically format the line after typing
     "editor.formatOnType": true,
 
-    // Define profile for specified syntax or use your own profile with specific rules.
-    "emmet.syntaxProfiles": {"javascript": "html"},
+    // Enable emmet abbreviations in languages that are not supported by default. Add a mapping here between the language and emmet supported language.
+    //  Eg: {"vue-html": "html", "javascript": "javascriptreact"}
+    "emmet.includeLanguages": {
+        "vue-html": "html",
+        "vue": "html",
+        "javascript": "javascriptreact"
+    },
 
     // Enable / disable JavaScript validation
     "javascript.validate.enable": false,
@@ -30,7 +35,7 @@
     "workbench.iconTheme": "vscode-icons",
 
     // Specifies the color theme used in the workbench.
-    "workbench.colorTheme": "Monokai",
+    "workbench.colorTheme": "Monokai Dimmed",
 
     // Controls the font family of the terminal, this defaults to editor.fontFamily's value.
     "terminal.integrated.fontFamily": "Source Code Pro",
@@ -43,12 +48,6 @@
 
     // The proxy setting to use. If not set will be taken from the http_proxy and https_proxy environment variables
     "http.proxy": "http://127.0.0.1:1087",
-
-    // Define profile for specified syntax or use your own profile with specific rules.
-    "emmet.syntaxProfiles": {
-        "vue-html": "html",
-        "vue": "html"
-    },
 
     "files.associations": {
         "*.vue": "vue",
