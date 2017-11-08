@@ -93,7 +93,9 @@ brew install sonar-scanner
 # Atom (Need Config)
 brew cask install atom
 # basic
-apm install file-icons git-time-machine pigments project-manager emmet atom-beautify
+apm install file-icons git-time-machine pigments project-manager emmet atom-beautify editorconfig
+# theme
+apm install nucleus-dark-ui Seti-ui seti-syntax monokai
 # language
 apm install language-swift language-rust language-vue
 # markdown
@@ -102,8 +104,6 @@ apm install markdown-writer markdown-pdf markdown-preview-plus
 apm install nuclide react-native-snippets atom-react-native-style
 # optional
 apm install wakatime omnisharp autocomplete-modules atom-ternjs atom-css-comb sync-settings symbols-tree-view
-# theme
-apm install nucleus-dark-ui Seti-ui seti-syntax monokai
 
 # visual studio code (Need Config)
 brew cask install visual-studio-code
