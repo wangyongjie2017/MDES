@@ -111,24 +111,37 @@ brew cask install visual-studio-code
 code --list-extensions
 
 code --install-extension EditorConfig.EditorConfig
-code --install-extension robinbentley.sass-indented
-code --install-extension TimonVS.ReactSnippetsStandard
-code --install-extension saviorisdead.RustyCode
-code --install-extension ecmel.vscode-html-css
 code --install-extension spywhere.mark-jump
-code --install-extension qinjia.view-in-browser
+code --install-extension wayou.vscode-todo-highlight
 code --install-extension deerawan.vscode-faker
 code --install-extension esbenp.prettier-vscode
-code --install-extension wayou.vscode-todo-highlight
+# html/css
+code --install-extension ecmel.vscode-html-css
+code --install-extension qinjia.view-in-browser
+code --install-extension Zignd.html-css-class-completion
+code --install-extension robinbentley.sass-indented
+# language
+code --install-extension dbaeumer.vscode-eslint
+code --install-extension eg2.tslint
+code --install-extension saviorisdead.RustyCode
+# vue
 code --install-extension octref.vetur
 code --install-extension hollowtree.vue-snippets
+# react&react-native(no recommend at 2017.11.08 - because react and react native likes atom nuclide.)
+code --install-extension vsmobile.vscode-react-native
+code --install-extension xabikos.reactsnippets
+code --install-extension flowtype.flow-for-vscode
+# themes&icons
 code --install-extension Equinusocio.vsc-material-theme
 code --install-extension ms-vscode.Theme-TomorrowKit
 code --install-extension robertohuertasm.vscode-icons
 code --install-extension PKief.material-icon-theme
 code --install-extension azemoh.one-monokai
 code --install-extension arcticicestudio.nord-visual-studio-code
-# 可选安装 code --install-extension  ms-vscode.csharp
+code --install-extension robertohuertasm.vscode-icons
+# optional
+code --install-extension  ms-vscode.csharp
+
 code --list-extensions
 
 # Chrome WWDC Dropbox cheatsheet sourcetree transmit foxmail telegram slack insomnia sitesucker Hyper(Terminal) gitup
