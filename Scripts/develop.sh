@@ -92,9 +92,18 @@ brew install sonar-scanner
 
 # Atom (Need Config)
 brew cask install atom
-apm install file-icons git-time-machine pigments project-manager emmet atom-beautify language-swift language-rust markdown-writer markdown-pdf markdown-preview-plus symbols-tree-view language-vue nuclide
-# 可选安装 apm install wakatime omnisharp autocomplete-modules atom-ternjs atom-css-comb sync-settings
-apm install nucleus-dark-ui Seti-ui seti-syntax monokai hydrogen
+# basic
+apm install file-icons git-time-machine pigments project-manager emmet atom-beautify
+# language
+apm install language-swift language-rust language-vue
+# markdown
+apm install markdown-writer markdown-pdf markdown-preview-plus
+# react|react-native
+apm install nuclide react-native-snippets atom-react-native-style
+# optional
+apm install wakatime omnisharp autocomplete-modules atom-ternjs atom-css-comb sync-settings symbols-tree-view
+# theme
+apm install nucleus-dark-ui Seti-ui seti-syntax monokai
 
 # visual studio code (Need Config)
 brew cask install visual-studio-code
