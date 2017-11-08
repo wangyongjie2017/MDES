@@ -76,6 +76,7 @@
 - [Fontawesome](http://fontawesome.io/)
 - [MaterialIcons](http://google.github.io/material-design-icons/)
 - [open-iconic](https://useiconic.com/open)
+- [icons8](https://icons8.com/)
 
 ## 3DTool
 
