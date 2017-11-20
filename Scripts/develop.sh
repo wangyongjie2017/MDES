@@ -20,6 +20,7 @@ npm i skpm -g
 gem install bundler
 gem install rubocop
 gem install xcpretty
+gem install xcode-install
 gem install cocoapods
 pod --version
 
