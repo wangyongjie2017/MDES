@@ -1,6 +1,5 @@
 # oh-my-zsh plugins (need config zshrc and antigenrc)
-brew install antigen
-echo "source $(brew --prefix)/share/antigen/antigen.zsh" >> ~/.zshrc
+curl -L git.io/antigen > $HOME/.bin/antigen.zsh
 
 # Autojump
 brew install autojump
