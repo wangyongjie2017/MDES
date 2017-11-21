@@ -36,6 +36,8 @@ rvm install 2.4.2 --rubygems ignore
 rvm docs generate-ri
 rvm --default use 2.4.2
 rvm list
+
+rvm rubygems current
 gem install bundler
 # need close window or source ~/.zshrc
 
