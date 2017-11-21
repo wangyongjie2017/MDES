@@ -8,10 +8,6 @@ echo '[ -f /usr/local/etc/profile.d/autojump.sh ] && . /usr/local/etc/profile.d/
 # tree
 brew install tree
 
-# thefuck
-brew install thefuck
-echo 'eval $(thefuck --alias)' >> ~/.zshrc
-
 # asciinema
 pyenv shell 3.6.2
 pip3 install asciinema
