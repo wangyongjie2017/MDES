@@ -12,6 +12,7 @@ ng
 
 # Python (Close Terminal)
 brew install pyenv
+brew install xz
 # To use Homebrew's directories rather than ~/.pyenv add follow line to your profile:
 # echo 'export PYENV_ROOT=/usr/local/var/pyenv' >> ~/.zshrc
 echo 'if which pyenv > /dev/null; then eval "$(pyenv init -)"; fi' >> ~/.zshrc
@@ -20,7 +21,7 @@ pyenv install --list
 
 CFLAGS="-I$(brew --prefix openssl)/include" \
 LDFLAGS="-L$(brew --prefix openssl)/lib" \
-pyenv install -v 3.6.2 --verbose
+pyenv install -v 3.6.3 --verbose
 
 pyenv versions
 # need close window or source ~/.zshrc
@@ -29,10 +30,11 @@ pyenv versions
 brew install gnupg gnupg2
 gpg --keyserver hkp://keys.gnupg.net --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3 7D2BAF1CF37B13E2069D6956105BD0E739499BDB
 \curl -sSL https://get.rvm.io | bash
+rvm get head
 rvm list known
-rvm install 2.4.1 --verbose
+rvm install 2.4.2 --rubygems ignore
 rvm docs generate-ri
-rvm --default use 2.4.1
+rvm --default use 2.4.2
 rvm list
 gem install bundler
 # need close window or source ~/.zshrc
