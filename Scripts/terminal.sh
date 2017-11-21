@@ -37,7 +37,7 @@ git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 tmux
 tmux source ~/.tmux.conf
 # Press`prefix + I` install plugins
-rvm @global do gem install tmuxinator
+gem install tmuxinator
 git clone git@github.com:tmuxinator/tmuxinator.git
 # copy completeion folder's tmuxinator.zsh to ~/.bin
 # copy the .tmuxinator config
