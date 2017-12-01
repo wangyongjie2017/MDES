@@ -37,6 +37,7 @@
   + [svgo-compressor](https://github.com/BohemianCoding/svgo-compressor)
   + [sketch-material](https://github.com/websiddu/sketch-material)
   + [PaintCode-Sketch](https://www.paintcodeapp.com/sketch)
+  + [SketchCacheCleaner](https://yo-op.github.io/sketchcachecleaner/)
 
 - [Principle](http://principleformac.com/) - Animate Your Ideas, Design Better Apps
 - [Zeplin](https://zeplin.io/) - Design hand-off has never been easier. Generate styleguides and resources, automatically.
