@@ -1,17 +1,10 @@
-mas search spark
-mas install 1176895641
-
-mas search YoudaoDict
+# YoudaoDict
 mas install 491854842
-
-mas search bear
+# bear
 mas install 1091189122
-
-mas search wechat
+# wechat
 mas install 836500024
-
-mas search "The Unarchiver"
+# The Unarchiver"
 mas install 425424353
-
-mas search Trello
+# Trello
 mas install 1278508951

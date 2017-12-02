@@ -19,7 +19,10 @@ cd FiraCode/distr/otf
 open FiraCode-*.otf
 
 git clone git@github.com:nathco/Office-Code-Pro.git
-cd Office-Code-Pro-master/Fonts/Office Code Pro/OTF
+cd Office-Code-Pro/Fonts/Office\ Code\ Pro/OTF/
 open OfficeCodePro-*.otf
 
 curl https://raw.githubusercontent.com/qrpike/Web-Font-Load/master/install.sh | sh
+
+# Code New Roman
+https://sourceforge.net/projects/codenewroman/

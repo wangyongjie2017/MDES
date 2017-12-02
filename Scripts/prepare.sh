@@ -1,3 +1,6 @@
+# Install Xcode, command line Tools final enbale develop mode
+xcode-select --install
+
 # Homebrew
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 brew doctor
@@ -14,13 +17,14 @@ mas list
 # Sierra Gatekeeper
 sudo spctl --master-disable
 
-# Enable Mac Develop Mode
-mas serach Xcode
-mas install `497799835`
-xcode-select --install
+# Disable SIP （reboot + CMD + R）
+csrutil disable
+reboot
 
 # Openssl
 brew install openssl
-ln -s /usr/local/Cellar/openssl/1.0.2m/bin/openssl /usr/local/bin
+sudo mv /usr/bin/openssl /usr/bin/openssl_old
+sudo ln -s /usr/local/Cellar/openssl/1.0.2m/bin/openssl /usr/bin/openssl
 ln -s /usr/local/opt/openssl/lib/libcrypto.1.0.0.dylib /usr/local/lib/
 ln -s /usr/local/opt/openssl/lib/libssl.1.0.0.dylib /usr/local/lib/
+openssl version -a
