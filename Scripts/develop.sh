@@ -111,6 +111,14 @@ code --install-extension spywhere.mark-jump
 code --install-extension wayou.vscode-todo-highlight
 code --install-extension deerawan.vscode-faker
 code --install-extension esbenp.prettier-vscode
+# themes&icons
+code --install-extension Equinusocio.vsc-material-theme
+code --install-extension ms-vscode.Theme-TomorrowKit
+code --install-extension robertohuertasm.vscode-icons
+code --install-extension PKief.material-icon-theme
+code --install-extension azemoh.one-monokai
+code --install-extension arcticicestudio.nord-visual-studio-code
+code --install-extension robertohuertasm.vscode-icons
 # html/css
 code --install-extension ecmel.vscode-html-css
 code --install-extension qinjia.view-in-browser
@@ -127,14 +135,6 @@ code --install-extension hollowtree.vue-snippets
 code --install-extension vsmobile.vscode-react-native
 code --install-extension xabikos.reactsnippets
 code --install-extension flowtype.flow-for-vscode
-# themes&icons
-code --install-extension Equinusocio.vsc-material-theme
-code --install-extension ms-vscode.Theme-TomorrowKit
-code --install-extension robertohuertasm.vscode-icons
-code --install-extension PKief.material-icon-theme
-code --install-extension azemoh.one-monokai
-code --install-extension arcticicestudio.nord-visual-studio-code
-code --install-extension robertohuertasm.vscode-icons
 # optional
 code --install-extension  ms-vscode.csharp
 
