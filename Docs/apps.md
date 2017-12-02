@@ -71,6 +71,7 @@
 - Hopper Disassembler
 
 ## VPNClient
+- [SpechtLite](https://github.com/zhuhaow/SpechtLite) - A rule-based proxy app for macOS.
 - [Surge](http://nssurge.com/)
 - [Shadowsocks](https://github.com/shadowsocks/ShadowsocksX-NG)
 - [Shadowrocket](https://liguangming.com/Shadowrocket)
