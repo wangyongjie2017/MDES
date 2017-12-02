@@ -5,7 +5,7 @@
   + [Runner](http://sketchrunner.com/)
   + [Sketchpacks](https://sketchpacks.com/) - Browse, manage, and auto-update your Sketch plugins from the menu bar - 不建议使用，2017-07-24的时候用起来感觉不太稳定
   + [Craft](https://www.invisionapp.com/craft) - 不装后悔
-  + [WeSketch](https://github.com/weixin/WeSketch)
+  + [Miaow](https://github.com/weixin/Miaow)
   + [Sketch Measure](http://utom.design/measure/)
   + [Content Generator](https://github.com/timuric/Content-generator-sketch-plugin)
   + [Fluid](https://github.com/matt-curtis/Fluid-for-Sketch)
