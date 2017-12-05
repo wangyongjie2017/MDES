@@ -39,6 +39,7 @@
   + [PaintCode-Sketch](https://www.paintcodeapp.com/sketch)
   + [SketchCacheCleaner](https://yo-op.github.io/sketchcachecleaner/)
   + [fontbuddy](http://fontbuddy.co/)
+  + [avataaars](https://avataaars.com/)
 
 - [Principle](http://principleformac.com/) - Animate Your Ideas, Design Better Apps
 - [Zeplin](https://zeplin.io/) - Design hand-off has never been easier. Generate styleguides and resources, automatically.

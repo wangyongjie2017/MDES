@@ -6,6 +6,10 @@
       "nucleus-dark-ui"
       "monokai"
     ]
+    customFileTypes:
+      "text.html.vue": [
+        "wpy"
+      ]
   editor:
     fontFamily: "Consolas"
     preferredLineLength: 160
@@ -36,7 +40,3 @@
     showOnStartup: false
   whitespace:
     ensureSingleTrailingNewline: false
-  customFileTypes:
-      "text.html.vue": [
-        "wpy"
-      ]
