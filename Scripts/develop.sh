@@ -1,7 +1,56 @@
-# Docker (Need Config)
-brew cask install docker # brew cask install docker-toolbox (toolbox vs docker)
-docker --version
-docker ps
+# Atom (Need Config)
+brew cask install atom
+# basic
+apm install file-icons git-time-machine pigments project-manager emmet atom-beautify editorconfig
+# theme
+apm install nucleus-dark-ui Seti-ui seti-syntax monokai
+# language
+apm install language-swift language-rust language-vue
+# markdown
+apm install markdown-writer markdown-pdf markdown-preview-plus
+# react|react-native
+apm install nuclide react-native-snippets atom-react-native-style
+# optional
+apm install wakatime omnisharp autocomplete-modules atom-ternjs atom-css-comb sync-settings symbols-tree-view
+
+# visual studio code (Need Config)
+brew cask install visual-studio-code
+
+code --list-extensions
+
+code --install-extension EditorConfig.EditorConfig
+code --install-extension spywhere.mark-jump
+code --install-extension wayou.vscode-todo-highlight
+code --install-extension deerawan.vscode-faker
+code --install-extension esbenp.prettier-vscode
+# themes&icons
+code --install-extension Equinusocio.vsc-material-theme
+code --install-extension ms-vscode.Theme-TomorrowKit
+code --install-extension robertohuertasm.vscode-icons
+code --install-extension PKief.material-icon-theme
+code --install-extension azemoh.one-monokai
+code --install-extension arcticicestudio.nord-visual-studio-code
+code --install-extension robertohuertasm.vscode-icons
+# html/css
+code --install-extension ecmel.vscode-html-css
+code --install-extension qinjia.view-in-browser
+code --install-extension Zignd.html-css-class-completion
+code --install-extension robinbentley.sass-indented
+# language
+code --install-extension dbaeumer.vscode-eslint
+code --install-extension eg2.tslint
+code --install-extension saviorisdead.RustyCode
+# vue
+code --install-extension octref.vetur
+code --install-extension hollowtree.vue-snippets
+# react&react-native(no recommend at 2017.11.08 - because react and react native likes atom nuclide.)
+code --install-extension vsmobile.vscode-react-native
+code --install-extension xabikos.reactsnippets
+code --install-extension flowtype.flow-for-vscode
+# optional
+code --install-extension  ms-vscode.csharp
+
+code --list-extensions
 
 # npm
 npm i express-generator -g
@@ -10,7 +59,6 @@ npm i apidoc -g
 npm i typescript -g
 npm i eslint -g
 npm i wepy-cli -g
-npm i wept -g
 npm i gtop -g
 npm i nodemon -g
 npm i json-server -g
@@ -86,59 +134,10 @@ brew install cmake
 # SonarScanner (Need Config)
 brew install sonar-scanner
 
-# Atom (Need Config)
-brew cask install atom
-# basic
-apm install file-icons git-time-machine pigments project-manager emmet atom-beautify editorconfig
-# theme
-apm install nucleus-dark-ui Seti-ui seti-syntax monokai
-# language
-apm install language-swift language-rust language-vue
-# markdown
-apm install markdown-writer markdown-pdf markdown-preview-plus
-# react|react-native
-apm install nuclide react-native-snippets atom-react-native-style
-# optional
-apm install wakatime omnisharp autocomplete-modules atom-ternjs atom-css-comb sync-settings symbols-tree-view
-
-# visual studio code (Need Config)
-brew cask install visual-studio-code
-
-code --list-extensions
-
-code --install-extension EditorConfig.EditorConfig
-code --install-extension spywhere.mark-jump
-code --install-extension wayou.vscode-todo-highlight
-code --install-extension deerawan.vscode-faker
-code --install-extension esbenp.prettier-vscode
-# themes&icons
-code --install-extension Equinusocio.vsc-material-theme
-code --install-extension ms-vscode.Theme-TomorrowKit
-code --install-extension robertohuertasm.vscode-icons
-code --install-extension PKief.material-icon-theme
-code --install-extension azemoh.one-monokai
-code --install-extension arcticicestudio.nord-visual-studio-code
-code --install-extension robertohuertasm.vscode-icons
-# html/css
-code --install-extension ecmel.vscode-html-css
-code --install-extension qinjia.view-in-browser
-code --install-extension Zignd.html-css-class-completion
-code --install-extension robinbentley.sass-indented
-# language
-code --install-extension dbaeumer.vscode-eslint
-code --install-extension eg2.tslint
-code --install-extension saviorisdead.RustyCode
-# vue
-code --install-extension octref.vetur
-code --install-extension hollowtree.vue-snippets
-# react&react-native(no recommend at 2017.11.08 - because react and react native likes atom nuclide.)
-code --install-extension vsmobile.vscode-react-native
-code --install-extension xabikos.reactsnippets
-code --install-extension flowtype.flow-for-vscode
-# optional
-code --install-extension  ms-vscode.csharp
-
-code --list-extensions
+# Docker (Need Config)
+brew cask install docker # brew cask install docker-toolbox (toolbox vs docker)
+docker --version
+docker ps
 
 # Chrome WWDC Dropbox cheatsheet sourcetree transmit foxmail telegram slack insomnia sitesucker Hyper(Terminal) gitup
 brew cask install google-chrome wwdc dropbox cheatsheet sourcetree telegram slack insomnia gitup hyper spark
