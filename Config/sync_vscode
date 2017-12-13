@@ -55,4 +55,7 @@
         "*.wxml": "html",
         "*.wxss": "css"
     }
+
+    // Show warning when a number of matched files exceed this limit. Set to -1 for unlimited.
+    "markJump.maximumLimit": 10000
 }
