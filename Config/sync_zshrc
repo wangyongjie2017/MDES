@@ -56,7 +56,7 @@ plugins=(git bundler osx rake ruby mvn nvm npm rbenv rvm gulp github adb ant ema
 source $ZSH/oh-my-zsh.sh
 
 # User configuration
-source $HOME/.bin/.antigenrc
+source $HOME/.antigenrc
 source $HOME/.bin/tmuxinator.zsh
 
 # export MANPATH="/usr/local/man:$MANPATH"
