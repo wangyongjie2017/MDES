@@ -70,6 +70,11 @@
 ## Disassembler
 - Hopper Disassembler
 
+## Compare
+
+- Kaleidoscope
+- Beyond Compare
+
 ## VPNClient
 - [SpechtLite](https://github.com/zhuhaow/SpechtLite) - A rule-based proxy app for macOS.
 - [Surge](http://nssurge.com/)
