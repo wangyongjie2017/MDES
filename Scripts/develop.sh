@@ -141,7 +141,7 @@ docker --version
 docker ps
 
 # Chrome WWDC Dropbox cheatsheet sourcetree transmit foxmail telegram slack insomnia sitesucker Hyper(Terminal) gitup
-brew cask install google-chrome wwdc dropbox cheatsheet sourcetree telegram slack insomnia gitup hyper spark
+brew cask install google-chrome wwdc dropbox cheatsheet sourcetree telegram slack insomnia gitup squirrel hyper spark
 
 # Intellij
 brew cask install intellij-idea webstorm pycharm rubymine android-studio appcode clion #(android sdk)
