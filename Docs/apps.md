@@ -82,6 +82,7 @@
 - [Xclient.info](xclient.info)
 - [爱情守望者](https://www.waitsun.com/)
 - [MacAppStore.net](http://macappstore.net/)
+- [MacApp](https://macapp.org/)
 - [MacTorrent](http://mac-torrent-download.net/)
 - [XMac](http://xmac.xyz/)
 - [麦克社](http://www.macshe.com/)

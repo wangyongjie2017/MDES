@@ -130,6 +130,7 @@ brew install oclint
 
 # CMake
 brew install cmake
+brew install ninja
 
 # SonarScanner (Need Config)
 brew install sonar-scanner
