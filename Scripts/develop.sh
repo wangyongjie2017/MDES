@@ -143,8 +143,8 @@ docker ps
 # Chrome WWDC Dropbox cheatsheet sourcetree transmit foxmail telegram slack insomnia sitesucker Hyper(Terminal) gitup
 brew cask install google-chrome wwdc dropbox cheatsheet sourcetree telegram slack insomnia gitup squirrel hyper spark
 
-# Intellij
-brew cask install intellij-idea webstorm pycharm rubymine android-studio appcode clion #(android sdk)
+# Intellij Platform
+brew cask install intellij-idea webstorm pycharm rubymine android-studio appcode clion # need config android sdk
 
 # genymotion
 brew cask install virtualbox genymotion
@@ -152,16 +152,14 @@ brew cask install virtualbox genymotion
 # gitbook
 brew cask install gitbook-editor
 
-# fastlane
-brew cask install fastlane
-echo 'export PATH="$HOME/.fastlane/bin:$PATH"' >> ~/.zshrc
-
 # sketch for android tools
 curl -s "https://get.sdkman.io" | bash
 echo 'export PATH="$PATH:$HOME/.sdkman/bin/sdkman-init.sh"' >> ~/.zshrc
 sdk install gradle
 
+# pidcat
 brew install pidcat
 
+# imagemagick(sketch optional)
 brew install imagemagick
 npm install -g svgo svg2vectordrawable
