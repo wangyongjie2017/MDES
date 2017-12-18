@@ -39,8 +39,21 @@ rvm --default use 2.4.2
 rvm list
 # need close window or source ~/.zshrc
 
+# jenv
+brew install jenv
+echo 'export PATH="$HOME/.jenv/bin:$PATH"' >> ~/.zshrc
+echo 'eval "$(jenv init -)"' >> ~/.zshrc
+
 # Java
+
+brew cask install java8
 brew cask install java
+
+jenv add /Library/Java/JavaVirtualMachines/jdk1.8.0_152.jdk/Contents/Home
+jenv add /Library/Java/JavaVirtualMachines/jdk-9.0.1.jdk/Contents/Home
+
+jenv global 1.8.0.152
+# restart terminal
 java -version
 
 # dotnet core
