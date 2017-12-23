@@ -8,3 +8,5 @@ mas install 836500024
 mas install 425424353
 # Trello
 mas install 1278508951
+# foxmail
+mas install 617950461
