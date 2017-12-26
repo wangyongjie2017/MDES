@@ -26,3 +26,6 @@ curl https://raw.githubusercontent.com/qrpike/Web-Font-Load/master/install.sh | 
 
 # Code New Roman
 https://sourceforge.net/projects/codenewroman/
+
+# Apple Font
+https://developer.apple.com/fonts/
