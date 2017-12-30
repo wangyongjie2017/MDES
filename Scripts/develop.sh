@@ -7,7 +7,7 @@ apm install nucleus-dark-ui Seti-ui seti-syntax monokai
 # language
 apm install language-swift language-rust language-vue
 # markdown
-apm install markdown-writer markdown-pdf markdown-preview-plus
+apm install markdown-writer markdown-pdf
 # react|react-native
 apm install nuclide react-native-snippets atom-react-native-style
 # optional
