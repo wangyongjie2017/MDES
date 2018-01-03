@@ -1,7 +1,7 @@
 # Atom (Need Config)
 brew cask install atom
 # basic
-apm install file-icons git-time-machine pigments project-manager emmet atom-beautify editorconfig
+apm install file-icons git-time-machine pigments project-manager emmet atom-beautify editorconfig sublime-style-column-selection
 # theme
 apm install nucleus-dark-ui Seti-ui seti-syntax monokai
 # language
